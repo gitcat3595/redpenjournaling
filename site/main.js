@@ -126,6 +126,30 @@ const renderNavigation = (data) => {
 };
 
 const renderSocial = (data) => {
+  const iconMap = {
+    Substack: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 5h14" />
+        <path d="M5 9h14" />
+        <path d="M5 13h14v6l-7-3-7 3z" />
+      </svg>
+    `,
+    Instagram: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="5" y="5" width="14" height="14" rx="4" />
+        <circle cx="12" cy="12" r="3.2" />
+        <circle cx="16.4" cy="7.6" r=".7" />
+      </svg>
+    `,
+    Medium: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4.5 7.5v9" />
+        <path d="M4.5 7.5l5.2 9 5.2-9" />
+        <path d="M14.9 7.5v9" />
+        <path d="M19.5 7.5v9" />
+      </svg>
+    `
+  };
   document.querySelectorAll("[data-social], [data-social-footer]").forEach((node) => {
     node.innerHTML = "";
     const items = byPath(data, "social");
@@ -133,7 +157,8 @@ const renderSocial = (data) => {
     items.forEach((link) => {
       const anchor = document.createElement("a");
       anchor.href = link.href;
-      anchor.textContent = link.label;
+      anchor.setAttribute("aria-label", link.label);
+      anchor.innerHTML = `${iconMap[link.label] || link.label}<span class="sr-only">${link.label}</span>`;
       anchor.target = "_blank";
       anchor.rel = "noreferrer";
       node.append(anchor);
@@ -194,11 +219,44 @@ const renderSteps = (data) => {
   node.innerHTML = "";
   const steps = byPath(data, "method.steps");
   if (!Array.isArray(steps)) return;
+  const stepIcons = {
+    Write: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 20h9" />
+        <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+      </svg>
+    `,
+    Acknowledge: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <circle cx="11" cy="11" r="7" />
+        <path d="m20 20-3.5-3.5" />
+      </svg>
+    `,
+    Review: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M4 6h16" />
+        <path d="M4 12h16" />
+        <path d="M4 18h16" />
+        <circle cx="8" cy="6" r="2" />
+        <circle cx="16" cy="12" r="2" />
+        <circle cx="10" cy="18" r="2" />
+      </svg>
+    `,
+    Move: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M5 12h14" />
+        <path d="m13 6 6 6-6 6" />
+      </svg>
+    `
+  };
   steps.forEach((step, index) => {
     const card = document.createElement("article");
     card.className = "step-card";
     card.innerHTML = `
-      <span>STEP ${String(index + 1).padStart(2, "0")}</span>
+      <div class="method-step-top">
+        <span class="method-step-number">STEP ${String(index + 1).padStart(2, "0")}</span>
+        <span class="method-step-icon">${stepIcons[step.title] || ""}</span>
+      </div>
       <h3>${step.title}</h3>
       <p>${step.text}</p>
     `;
@@ -463,7 +521,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260526`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260528`);
   const data = await response.json();
 
   document.title = data.meta.title;

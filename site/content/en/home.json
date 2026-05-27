@@ -11,11 +11,12 @@
       { "label": "Corporate", "href": "#corporate" },
       { "label": "Blog", "href": "/blog/" }
     ],
-    "cta": "Get the free guide"
+    "cta": "Get the FREE guide"
   },
   "social": [
     { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
-    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" },
+    { "label": "Medium", "href": "https://medium.com/@redpenjournaling" }
   ],
   "footer": {
     "copy": "© 2026 Red Pen Journaling. All rights reserved.",
@@ -24,18 +25,18 @@
     "blog": "Blog"
   },
   "hero": {
-    "eyebrow": "Mental clarity method",
-    "title": "Turn mental noise into clear decisions.",
-    "subtitle": "High-performing people are drowning in unreviewed thinking. Red Pen Journaling helps you process what you actually think and feel, so you can stop looping and move with clearer judgement.",
-    "primaryCta": "Get the free guide",
-    "secondaryCta": "Explore the method",
-    "note": "For overthinkers, professionals, founders, managers, and teams navigating cognitive overload.",
+    "eyebrow": "Thought Organisation",
+    "title": "Review and organise with RED PEN",
+    "subtitle": "A structured way to review unprocessed thoughts, separate fact from interpretation, and make clearer decisions without the mental noise.",
+    "primaryCta": "Get the FREE guide",
+    "secondaryCta": "",
+    "note": "For overloaded minds navigating modern work and life.",
     "downloadTitle": "Free download",
-    "downloadText": "The 10-minute Red Pen Clarity starter guide.",
+    "downloadText": "15-minute Mental Clarity Guide with RED PEN",
     "emailPlaceholder": "Email address",
     "downloadButton": "Subscribe on Substack",
     "subscribeUrl": "https://redpenjournaling.substack.com/subscribe",
-    "privacyNote": "Opens Substack. Subscribe there to receive the guide and future notes on mental clarity.",
+    "privacyNote": "Try the method. Subscribe to Substack to receive the free starter guide to experience for yourself.",
     "successMessage": "Thank you. Check your inbox."
   },
   "visual": {
@@ -47,7 +48,7 @@
   },
   "problem": {
     "eyebrow": "The problem",
-    "title": "It is hard to move when you cannot see what you really think.",
+    "title": "Mental noise and clutter make clear thinking harder.",
     "body": "High-performers do not need more input. They need a way to review their own thinking — to separate signal from noise and move with clearer judgement.",
     "points": [
       "Too many unfinished thoughts and emotional residues stay unattended.",
@@ -57,8 +58,8 @@
   },
   "method": {
     "eyebrow": "The method",
-    "title": "Write. Acknowledge. Review. Act.",
-    "body": "This is not journaling for self-discovery alone. It is a structured self-review process for identifying the facts, interpretations, emotional reactions and mental patterns underneath your thinking — so you can act from clarity rather than noise.",
+    "title": "RED PEN Thought Review",
+    "body": "This is not journaling for self-discovery alone. It is a structured thinking practice: write what is occupying mental space, mark what carries weight, separate fact from story and interpretation, and decide the next move with less mental noise.",
     "steps": [
       {
         "title": "Write",
@@ -73,13 +74,13 @@
         "text": "Use the red pen to look again with distance, separating facts, interpretations, and emotional noise."
       },
       {
-        "title": "Act",
+        "title": "Move",
         "text": "Move with more clarity: take action, make a decision, or carry forward the question that matters."
       }
     ]
   },
   "redPen": {
-    "title": "The red pen is not for judgment. It is for review.",
+    "title": "Why use a red pen",
     "body": "The red pen creates psychological distance between you and your thoughts. Changing pen colour switches you from expression to observation — so you can mark what matters and revise your next move with less emotional noise."
   },
   "aiEra": {
@@ -88,26 +89,26 @@
     "body": "AI can generate answers instantly. But it cannot tell you what you actually think, avoid, feel, repeat or believe. The Red Pen Method is designed to help you process your own thinking before relying on external judgement. The tangible experience of writing stimulates the senses, reaching deeper into your cognition than a screen ever can."
   },
   "offers": {
-    "eyebrow": "Offers",
-    "title": "Three ways to work with Red Pen Journaling",
+    "eyebrow": "Products",
+    "title": "Ways to Use RED PEN",
     "items": [
       {
-        "name": "7-Day Mental Clarity Journal",
+        "name": "RED PEN Starter Guide",
         "type": "Starter",
         "price": "",
-        "description": "A guided entry product for clearing mental noise and learning the red-pen review habit."
+        "description": "A simple introduction to organizing your thoughts with a red pen. Learn how to separate facts, emotions, assumptions, and next actions in under 15 minutes a day."
       },
       {
-        "name": "90-Min Red Pen Workshop",
+        "name": "90-Min RED PEN Workshop",
         "type": "Individual / Group",
         "price": "",
-        "description": "A practical session to organise overthinking, review your thoughts, and leave with a clear next step."
+        "description": "A guided session for organizing scattered thoughts, reducing mental noise, and clarifying decisions. Leave with a clearer view of what matters and what to do next."
       },
       {
-        "name": "Corporate Mental Clarity Training",
+        "name": "RED PEN for Teams",
         "type": "Teams",
         "price": "",
-        "description": "Training for teams, managers, and leaders around reflection, decision-making, wellbeing, and burnout prevention."
+        "description": "A structured thinking practice for overloaded teams navigating constant information, decisions, and cognitive fatigue. Designed for managers, knowledge workers, and modern leadership environments."
       }
     ]
   },
@@ -167,9 +168,9 @@
   },
   "finalCta": {
     "eyebrow": "Newsletter",
-    "title": "Join to gain mental clarity.",
+    "title": "Join to regain mental clarity.",
     "body": "Follow along for practical red-pen prompts, metacognition notes, reflection tips, and ideas for processing your thinking — so you can make decisions with less noise and more clarity.",
-    "primaryCta": "Get the free guide",
-    "secondaryCta": "Find us on social"
+    "primaryCta": "Get the FREE guide",
+    "secondaryCta": ""
   }
 }

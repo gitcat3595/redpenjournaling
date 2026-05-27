@@ -45,7 +45,7 @@
   },
   "method": {
     "eyebrow": "Process",
-    "title": "Write. Acknowledge. Review. Act.",
+    "title": "Write. Acknowledge. Review. Move.",
     "body": "The method is deliberately simple so it can be repeated during real life, not only during quiet moments.",
     "steps": [
       {
@@ -61,7 +61,7 @@
         "text": "Pick up the red pen. Circle key words, underline what feels true, cross out noise. Ask yourself: is this a fact or an interpretation? Go deeper on anything that stands out."
       },
       {
-        "title": "Act",
+        "title": "Move",
         "text": "From what became clear, choose your next honest move. Decide, communicate, pause, ask — or carry forward the one question that matters most right now."
       }
     ]
