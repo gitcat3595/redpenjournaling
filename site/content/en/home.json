@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "RED PEN | Thought Review for Mental Clarity",
-    "description": "A calm cognitive reset protocol for turning unreviewed thinking into mental clarity, clear decisions, and better self-leadership."
+    "title": "Red Pen Journaling | Mental clarity through structured self-review",
+    "description": "A metacognitive review method that helps high-performers separate facts, emotions and assumptions — to think clearly and decide with confidence."
   },
   "nav": {
     "brand": "Red Pen Journaling",
@@ -24,12 +24,12 @@
     "blog": "Blog"
   },
   "hero": {
-    "eyebrow": "Thought Review for Mental Clarity",
-    "title": "RED PEN",
-    "subtitle": "A calm cognitive reset protocol for modern professionals. Review unprocessed thoughts, separate fact from interpretation, and make clearer decisions with less mental noise.",
-    "primaryCta": "Get the protocol",
-    "secondaryCta": "See the method",
-    "note": "For overthinkers, founders, managers, and knowledge workers navigating cognitive overload.",
+    "eyebrow": "Mental clarity method",
+    "title": "Turn mental noise into clear decisions.",
+    "subtitle": "High-performing people are drowning in unreviewed thinking. Red Pen Journaling helps you process what you actually think and feel, so you can stop looping and move with clearer judgement.",
+    "primaryCta": "Get the free guide",
+    "secondaryCta": "Explore the method",
+    "note": "For overthinkers, professionals, founders, managers, and teams navigating cognitive overload.",
     "downloadTitle": "Free download",
     "downloadText": "The 10-minute Red Pen Clarity starter guide.",
     "emailPlaceholder": "Email address",
@@ -39,83 +39,83 @@
     "successMessage": "Thank you. Check your inbox."
   },
   "visual": {
-    "label": "Red Pen Thought Review",
+    "label": "Thought review",
     "markOne": "fact?",
-    "markTwo": "story?",
-    "cardLabel": "Decision layer",
-    "cardText": "Separate. Review. Decide."
+    "markTwo": "repeat",
+    "cardLabel": "Next move",
+    "cardText": "Acknowledge. Review. Move with clarity."
   },
   "problem": {
     "eyebrow": "The problem",
-    "title": "Unreviewed thinking becomes mental noise.",
-    "body": "Most high-performers do not need more input. They need a way to review the thinking already running in the background: decisions, assumptions, pressure, emotional residue, and repeated loops.",
+    "title": "It is hard to move when you cannot see what you really think.",
+    "body": "High-performers do not need more input. They need a way to review their own thinking — to separate signal from noise and move with clearer judgement.",
     "points": [
-      "Unfinished decisions stay open and consume attention.",
-      "Facts, feelings, assumptions, and imagined outcomes blend together.",
-      "Judgment gets weaker when thinking has not been reviewed."
+      "Too many unfinished thoughts and emotional residues stay unattended.",
+      "Facts, fears, assumptions and emotions are tangled together.",
+      "Clear decisions are not made when facts, fears, assumptions and emotions are all mixed together."
     ]
   },
   "method": {
     "eyebrow": "The method",
-    "title": "Red Pen Thought Review™",
-    "body": "This is not journaling for self-discovery alone. It is a structured thought review method: write what is occupying mental space, mark what carries weight, separate fact from story, and choose one clearer next move.",
+    "title": "Write. Acknowledge. Review. Act.",
+    "body": "This is not journaling for self-discovery alone. It is a structured self-review process for identifying the facts, interpretations, emotional reactions and mental patterns underneath your thinking — so you can act from clarity rather than noise.",
     "steps": [
       {
-        "title": "Empty",
-        "text": "Externalize the thoughts, pressures, loops, and decisions currently occupying mental space."
+        "title": "Write",
+        "text": "Put your thoughts and feelings on paper before trying to solve them."
       },
       {
-        "title": "Mark",
-        "text": "Use the red pen to identify repeated themes, charged words, vague language, and unresolved decisions."
+        "title": "Acknowledge",
+        "text": "Recognise what is actually there: assumptions, fears, emotional reactions and recurring thought patterns."
       },
       {
-        "title": "Separate",
-        "text": "Distinguish fact, feeling, and story so not every thought is treated as equally true."
+        "title": "Review",
+        "text": "Use the red pen to look again with distance, separating facts, interpretations, and emotional noise."
       },
       {
-        "title": "Decide",
-        "text": "Name the real decision or the question to carry forward, then choose one specific next move."
+        "title": "Act",
+        "text": "Move with more clarity: take action, make a decision, or carry forward the question that matters."
       }
     ]
   },
   "redPen": {
-    "title": "The red pen is the review layer.",
-    "body": "Red is not decoration. It signals review, annotation, correction, and distance. Changing pen colour switches you from expression to observation, so you can see your thinking from the outside before deciding what to do next."
+    "title": "The red pen is not for judgment. It is for review.",
+    "body": "The red pen creates psychological distance between you and your thoughts. Changing pen colour switches you from expression to observation — so you can mark what matters and revise your next move with less emotional noise."
   },
   "aiEra": {
     "eyebrow": "Reflection in the AI era",
-    "title": "AI gives you answers. Red Pen helps you review the question.",
-    "body": "AI can generate endless output. It cannot tell you which assumption is driving your reaction, which story you are repeating, or which decision you are avoiding. Red Pen Thought Review creates a deliberate pause between input and judgment."
+    "title": "AI gives you answers. Only you can review your own thinking.",
+    "body": "AI can generate answers instantly. But it cannot tell you what you actually think, avoid, feel, repeat or believe. The Red Pen Method is designed to help you process your own thinking before relying on external judgement. The tangible experience of writing stimulates the senses, reaching deeper into your cognition than a screen ever can."
   },
   "offers": {
-    "eyebrow": "Resources",
-    "title": "Start with Red Pen",
+    "eyebrow": "Offers",
+    "title": "Three ways to work with Red Pen Journaling",
     "items": [
       {
-        "name": "10-Minute Mental Clarity Protocol",
+        "name": "7-Day Mental Clarity Journal",
         "type": "Starter",
         "price": "",
-        "description": "A short Red Pen Thought Review guide for separating fact, feeling, and story before deciding."
+        "description": "A guided entry product for clearing mental noise and learning the red-pen review habit."
       },
       {
-        "name": "90-Minute Thought Review Workshop",
+        "name": "90-Min Red Pen Workshop",
         "type": "Individual / Group",
         "price": "",
-        "description": "A practical session for reviewing mental noise, identifying the real decision, and choosing a clearer next move."
+        "description": "A practical session to organise overthinking, review your thoughts, and leave with a clear next step."
       },
       {
         "name": "Corporate Mental Clarity Training",
         "type": "Teams",
         "price": "",
-        "description": "Training for teams and leaders around cognitive overload, reflective judgment, decision quality, and burnout prevention."
+        "description": "Training for teams, managers, and leaders around reflection, decision-making, wellbeing, and burnout prevention."
       }
     ]
   },
   "corporate": {
     "eyebrow": "For teams",
-    "title": "A thought review practice for overloaded teams.",
-    "body": "Modern teams operate under constant input, emotional load, and decision pressure. Red Pen Thought Review gives people a simple structure to pause, examine their thinking, and return to work with clearer judgment under pressure.",
-    "tags": ["Decision quality", "Burnout prevention", "Self-leadership", "AI-era thinking", "Mental clarity"]
+    "title": "A practical reflection system for overloaded teams.",
+    "body": "Modern teams carry constant information load, emotional pressure, and high-stakes decisions. Red Pen Journaling gives people a structured way to pause, review their thinking, and return to decisions with less emotional noise, clearer thinking and better self-awareness under pressure.",
+    "tags": ["Reflective leadership", "Burnout prevention", "Women leaders", "AI-era thinking", "Mental clarity"]
   },
   "testimonials": {
     "eyebrow": "Testimonials",
@@ -145,8 +145,8 @@
   },
   "articles": {
     "eyebrow": "Articles",
-    "title": "Notes on thought review, mental clarity, and self-leadership.",
-    "body": "Start with the ideas that explain the problem, the red-pen review layer, and why mental clarity is now a professional skill.",
+    "title": "Start with three cornerstone articles.",
+    "body": "For launch, we are not moving every old post. These three topics explain the problem, the method, and the professional use case most clearly.",
     "items": [
       {
         "title": "Mental clarity in the age of too much input",
@@ -167,9 +167,9 @@
   },
   "finalCta": {
     "eyebrow": "Newsletter",
-    "title": "Think clearly before you decide.",
-    "body": "Subscribe for Red Pen prompts, metacognition notes, and practical thought review tools for mental clarity in modern work and life.",
-    "primaryCta": "Get the protocol",
+    "title": "Join to gain mental clarity.",
+    "body": "Follow along for practical red-pen prompts, metacognition notes, reflection tips, and ideas for processing your thinking — so you can make decisions with less noise and more clarity.",
+    "primaryCta": "Get the free guide",
     "secondaryCta": "Find us on social"
   }
 }

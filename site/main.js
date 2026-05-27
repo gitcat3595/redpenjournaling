@@ -463,7 +463,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260527`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260526`);
   const data = await response.json();
 
   document.title = data.meta.title;

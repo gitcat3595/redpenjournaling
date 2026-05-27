@@ -2,3 +2,4 @@
 *.zip
 .claude/
 cloudflare-worker-subscribe.js
+site/functions/
