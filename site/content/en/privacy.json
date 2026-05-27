@@ -1,0 +1,57 @@
+{
+  "meta": {
+    "title": "Privacy Policy | Red Pen Journaling",
+    "description": "How Red Pen Journaling collects and uses your information."
+  },
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Method", "href": "/method/" },
+      { "label": "Blog", "href": "/blog/" }
+    ],
+    "cta": "Get the free guide"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "page": {
+    "eyebrow": "Legal",
+    "title": "Privacy Policy",
+    "updated": "Last updated: May 2026"
+  },
+  "legal": {
+    "sections": [
+      {
+        "heading": "What we collect",
+        "body": "When you sign up to receive the free guide or our newsletter, we collect your email address. We do not collect any other personal information unless you provide it to us directly."
+      },
+      {
+        "heading": "How we use your information",
+        "body": "We use your email address to send you the free Red Pen Clarity starter guide and occasional notes on mental clarity, reflection, and journaling. We do not sell, share, or rent your personal information to third parties."
+      },
+      {
+        "heading": "Email marketing",
+        "body": "Our emails are sent through a third-party email service provider. By subscribing, you agree to receive emails from us. You can unsubscribe at any time using the link at the bottom of any email we send."
+      },
+      {
+        "heading": "Cookies and analytics",
+        "body": "This website does not use tracking cookies or third-party advertising trackers. We may use privacy-respecting analytics to understand aggregate visitor patterns, but this data is not linked to individual identities."
+      },
+      {
+        "heading": "Your rights",
+        "body": "You have the right to access, correct, or request deletion of your personal data at any time. To do so, please contact us directly at the email address below."
+      },
+      {
+        "heading": "Contact",
+        "body": "For privacy-related questions, please contact us at hello@redpenjournaling.com."
+      }
+    ]
+  },
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "blog": "Blog"
+  }
+}

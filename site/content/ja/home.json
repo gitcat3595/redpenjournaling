@@ -1,0 +1,175 @@
+{
+  "meta": {
+    "title": "RED PEN | Thought Review for Mental Clarity",
+    "description": "頭のノイズを見直し、事実・感情・思い込みを分け、よりクリアな判断へつなげる赤ペン思考整理術。"
+  },
+  "nav": {
+    "brand": "Red Pen Journaling",
+    "links": [
+      { "label": "メソッド", "href": "/ja/method/" },
+      { "label": "リソース", "href": "#offers" },
+      { "label": "法人向け", "href": "#corporate" },
+      { "label": "ブログ", "href": "/ja/blog/" }
+    ],
+    "cta": "無料ガイドを受け取る"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "blog": "ブログ"
+  },
+  "hero": {
+    "eyebrow": "Thought Review for Mental Clarity",
+    "title": "RED PEN",
+    "subtitle": "赤ペン思考整理術は、頭のノイズを見直し、事実と解釈を分け、よりクリアな判断へつなげるための静かな認知リセット・プロトコルです。",
+    "primaryCta": "無料プロトコルを受け取る",
+    "secondaryCta": "くわしく知る",
+    "note": "頭が忙しい人、考えすぎる人、プロフェッショナル、経営者、認知負荷の高いチームのために。",
+    "downloadTitle": "FREE DOWNLOAD",
+    "downloadText": "１０分でできる赤ペン思考法ガイド",
+    "emailPlaceholder": "メールアドレス",
+    "downloadButton": "Substackで登録する",
+    "subscribeUrl": "https://redpenjournaling.substack.com/subscribe",
+    "privacyNote": "Substackの登録ページが開きます。登録するとガイドとメンタルクラリティーに関するノートを受け取れます。",
+    "successMessage": "ありがとうございます！メールをご確認ください。"
+  },
+  "visual": {
+    "label": "Red Pen Thought Review",
+    "markOne": "事実？",
+    "markTwo": "解釈？",
+    "cardLabel": "判断の層",
+    "cardText": "分ける。見直す。決める。"
+  },
+  "problem": {
+    "eyebrow": "The problem",
+    "title": "見直されていない思考は、頭のノイズになる。",
+    "body": "必要なのは、さらに情報を入れることではありません。すでに頭の中で動いている思考、判断、思い込み、感情の残り、繰り返すループをレビューする方法です。",
+    "points": [
+      "未完了の判断が開いたままになり、注意力を消費している。",
+      "事実、感情、思い込み、想像上の結果が混ざっている。",
+      "見直されていない思考のままでは、判断の質が下がっていく。"
+    ]
+  },
+  "method": {
+    "eyebrow": "The method",
+    "title": "Red Pen Thought Review™",
+    "body": "これは、自己発見のためだけのジャーナリングではありません。頭の中を占めているものを書き出し、重みのある言葉に印をつけ、事実とストーリーを分け、次の一歩を選ぶための構造的な思考レビューです。",
+    "steps": [
+      {
+        "title": "出す",
+        "text": "いま頭の中を占めている思考、プレッシャー、ループ、判断を紙に出します。"
+      },
+      {
+        "title": "印をつける",
+        "text": "赤ペンで、繰り返すテーマ、感情の強い言葉、曖昧な表現、未解決の判断に印をつけます。"
+      },
+      {
+        "title": "分ける",
+        "text": "事実、感情、ストーリーを分け、すべての思考を同じだけ真実として扱わないようにします。"
+      },
+      {
+        "title": "決める",
+        "text": "本当に必要な判断、または持ち続けるべき問いを特定し、具体的な次の一歩を選びます。"
+      }
+    ]
+  },
+  "redPen": {
+    "title": "赤ペンは、思考のレビュー層です。",
+    "body": "赤は装飾ではありません。レビュー、注釈、修正、距離の色です。ペンの色を変えることで、書く自分から観察する自分へ切り替わり、次に何をするか決める前に自分の思考を外側から見ることができます。"
+  },
+  "aiEra": {
+    "eyebrow": "AI時代のリフレクション",
+    "title": "AIは答えを出せる。Red Penは問いを見直す。",
+    "body": "AIは無限にアウトプットを生成できます。しかし、どの思い込みが反応を動かしているのか、どのストーリーを繰り返しているのか、どの判断を避けているのかまでは教えてくれません。Red Pen Thought Reviewは、インプットと判断の間に意図的な間をつくります。"
+  },
+  "offers": {
+    "eyebrow": "Resources",
+    "title": "Red Penをはじめる",
+    "items": [
+      {
+        "name": "10分でできるメンタルクラリティ・プロトコル",
+        "type": "Guide",
+        "price": "",
+        "description": "判断する前に、事実・感情・ストーリーを分けるためのRed Pen Thought Reviewガイド。"
+      },
+      {
+        "name": "90分のThought Reviewワークショップ",
+        "type": "Workshop",
+        "price": "",
+        "description": "頭のノイズをレビューし、本当の判断を特定し、よりクリアな次の一歩を選ぶための実践セッション。"
+      },
+      {
+        "name": "法人向けのメンタルクラリティー研修",
+        "type": "Corporate",
+        "price": "",
+        "description": "認知負荷、意思決定の質、セルフリーダーシップ、バーンアウト予防のための法人向け研修。"
+      }
+    ]
+  },
+  "corporate": {
+    "eyebrow": "For corporates",
+    "title": "情報過多のチームのための、思考レビュー実践。",
+    "body": "現代の職場は、多くの情報、感情負荷、意思決定のプレッシャーにさらされています。Red Pen Thought Reviewは、一度立ち止まり、自分の思考を見直し、プレッシャー下でもよりクリアな判断へ戻るためのシンプルな構造を提供します。",
+    "tags": ["意思決定の質", "バーンアウト予防", "セルフリーダーシップ", "AI時代の思考法", "メンタルクラリティー"]
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "メソッドを体験したお客様の声",
+    "items": [
+      {
+        "quote": "頭の中に考えが多すぎる状態で来ましたが、その下にある本当の感情が見えるようになりました。",
+        "role": "スタートアップファウンダー"
+      },
+      {
+        "quote": "赤ペンを使うことで、実際に起きたことと、自分が頭の中で繰り返していたストーリーを分けられました。",
+        "role": "シニアマーケティングマネジャー"
+      },
+      {
+        "quote": "実践的で、落ち着いていて、とても精密でした。自分の思考が紙の上で見える感覚がありました。",
+        "role": "プロダクトデザイナー"
+      },
+      {
+        "quote": "チームで振り返るための、ツールとして活用しました。",
+        "role": "人事担当者"
+      },
+      {
+        "quote": "普段からジャーナリングしていても止まることがありますが、これは内省からよりクリアな選択へ進む助けになりました。",
+        "role": "エグゼクティブコーチ"
+      }
+    ]
+  },
+  "articles": {
+    "eyebrow": "Articles",
+    "title": "Thought Review、メンタルクラリティ、セルフリーダーシップについて。",
+    "body": "頭のノイズ、赤ペンのレビュー層、そしてメンタルクラリティがなぜ現代のプロフェッショナルスキルなのかを考えます。",
+    "items": [
+      {
+        "title": "情報が多すぎる時代のメンタルクラリティー",
+        "description": "情報、感情、そして本当に考えるべき問いを分けるための考え方。",
+        "meta": "Selected for launch"
+      },
+      {
+        "title": "なぜ赤ペンを使うと思考が変わるのか",
+        "description": "レビュー、距離、メタ認知を使って自分の思考を見直すための実践メモ。",
+        "meta": "Selected for launch"
+      },
+      {
+        "title": "セルフリーダーシップに欠かせない振り返りのスキル",
+        "description": "自分の状態を客観視し、よりよい判断、行動、レジリエンスにつなげるための構造的な振り返り。",
+        "meta": "Selected for launch"
+      }
+    ]
+  },
+  "finalCta": {
+    "eyebrow": "Newsletter",
+    "title": "決める前に、思考を見直す。",
+    "body": "Red Penのプロンプト、メタ認知のヒント、メンタルクラリティのための実践的な思考レビューをお届けします。",
+    "primaryCta": "無料プロトコルを受け取る",
+    "secondaryCta": ""
+  }
+}

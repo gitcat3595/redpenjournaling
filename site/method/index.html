@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Red Pen Journaling Method</title>
+    <meta name="description" content="A detailed guide to the Red Pen Journaling method." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand logo-brand" href="/" aria-label="Red Pen Journaling home">
+          <img src="/assets/redpen-logo.jpg" alt="Red Pen Journaling" />
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="site-menu" class="header-menu" data-site-menu>
+          <nav class="nav-links" aria-label="Primary navigation" data-list="nav.links"></nav>
+          <div class="header-actions">
+            <div class="language-links" data-language-switch></div>
+            <a class="nav-cta" href="/#download" data-text="nav.cta">Get the free guide</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-hero section">
+          <p class="eyebrow" data-text="pageHero.eyebrow"></p>
+          <h1 data-text="pageHero.title"></h1>
+          <p class="hero-subtitle" data-text="pageHero.body"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="/#download" data-text="pageHero.primaryCta"></a>
+            <a class="button secondary" href="#process" data-text="pageHero.secondaryCta"></a>
+          </div>
+        </section>
+
+        <section class="problem section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="definition.eyebrow"></p>
+            <h2 data-text="definition.title"></h2>
+          </div>
+          <div class="problem-body">
+            <p data-text="definition.body"></p>
+            <p data-text="definition.body2"></p>
+          </div>
+        </section>
+
+        <section class="materials section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="materials.eyebrow"></p>
+            <h2 data-text="materials.title"></h2>
+          </div>
+          <div class="problem-body">
+            <ul class="check-list" data-list="materials.items"></ul>
+          </div>
+        </section>
+
+        <section id="process" class="method section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="method.eyebrow"></p>
+            <h2 data-text="method.title"></h2>
+            <p data-text="method.body"></p>
+          </div>
+          <div class="steps" data-cards="method.steps"></div>
+        </section>
+
+        <section class="method-details section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="details.eyebrow"></p>
+            <h2 data-text="details.title"></h2>
+          </div>
+          <div class="detail-grid" data-detail-cards="details.items"></div>
+        </section>
+
+        <section class="practice section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="practice.eyebrow"></p>
+            <h2 data-text="practice.title"></h2>
+          </div>
+          <div class="problem-body">
+            <p data-text="practice.body"></p>
+            <ul class="check-list" data-list="practice.items"></ul>
+          </div>
+        </section>
+
+        <section class="faq-section section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="faq.eyebrow"></p>
+            <h2 data-text="faq.title"></h2>
+          </div>
+          <div class="faq-list" data-faq="faq.items"></div>
+        </section>
+
+        <section id="download" class="download-section section">
+          <div data-download-form></div>
+        </section>
+      </main>
+
+      <footer class="site-footer" data-footer></footer>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

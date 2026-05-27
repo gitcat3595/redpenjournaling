@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "title": "Blog | Red Pen Journaling",
+    "description": "Practical notes on mental clarity, reflection, and structured thinking."
+  },
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Method", "href": "/method/" },
+      { "label": "Blog", "href": "/blog/" }
+    ],
+    "cta": "Get the free guide"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "page": {
+    "eyebrow": "Articles",
+    "title": "Red Pen Journal",
+    "body": "Practical notes on mental clarity, reflection, and structured thinking for overloaded minds."
+  },
+  "blog": {
+    "readMore": "Read more →",
+    "loading": "Loading posts…",
+    "empty": "No posts yet. Check back soon.",
+    "error": "Could not load posts. Please try again later."
+  },
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "blog": "Blog"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "Article | Red Pen Journaling",
+    "description": "Red Pen Journaling — an article on mental clarity and structured reflection."
+  },
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Method", "href": "/method/" },
+      { "label": "Blog", "href": "/blog/" }
+    ],
+    "cta": "Get the free guide"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "page": {
+    "back": "← All articles",
+    "loading": "Loading…",
+    "notFound": "Post not found.",
+    "error": "Could not load this post. Please try again later."
+  },
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "blog": "Blog"
+  }
+}

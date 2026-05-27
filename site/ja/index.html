@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Red Pen Journaling</title>
+    <meta name="description" content="A mental clarity method for overloaded minds." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand logo-brand" href="#" aria-label="Red Pen Journaling home">
+          <img src="/assets/redpen-logo.jpg" alt="Red Pen Journaling" />
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="site-menu" class="header-menu" data-site-menu>
+          <nav class="nav-links" aria-label="Primary navigation" data-list="nav.links"></nav>
+          <div class="header-actions">
+            <div class="language-links" data-language-switch></div>
+            <a class="nav-cta" href="#download" data-text="nav.cta">Get the free guide</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero section">
+          <div class="hero-copy">
+            <p class="eyebrow" data-text="hero.eyebrow">Mental clarity method</p>
+            <h1 data-text="hero.title">Turn mental noise into clear decisions.</h1>
+            <p class="hero-subtitle" data-text="hero.subtitle"></p>
+            <div class="hero-actions">
+              <a class="button primary" href="#download" data-text="hero.primaryCta"></a>
+              <a class="button secondary" href="/ja/method/" data-text="hero.secondaryCta"></a>
+            </div>
+            <p class="hero-note" data-text="hero.note"></p>
+          </div>
+          <div class="hero-visual" aria-label="Red pen thought review illustration">
+            <div class="paper">
+              <div class="paper-top">
+                <span data-text="visual.label">Thought review</span>
+                <span>01</span>
+              </div>
+              <div class="thought-line wide"></div>
+              <div class="thought-line"></div>
+              <div class="thought-line short"></div>
+              <div class="red-mark mark-1" data-text="visual.markOne">fact?</div>
+              <div class="red-mark mark-2" data-text="visual.markTwo">repeat</div>
+              <div class="circle-mark"></div>
+              <div class="decision-card">
+                <span data-text="visual.cardLabel">Next move</span>
+                <strong data-text="visual.cardText">Acknowledge. Review. Move with clarity.</strong>
+              </div>
+            </div>
+            <div class="pen"></div>
+          </div>
+        </section>
+
+        <section class="problem section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="problem.eyebrow"></p>
+            <h2 data-text="problem.title"></h2>
+          </div>
+          <div class="problem-body">
+            <p data-text="problem.body"></p>
+            <ul class="check-list" data-list="problem.points"></ul>
+          </div>
+        </section>
+
+        <section id="method" class="method section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="method.eyebrow"></p>
+            <h2 data-text="method.title"></h2>
+            <p data-text="method.body"></p>
+          </div>
+          <div class="steps" data-cards="method.steps"></div>
+        </section>
+
+        <section class="red-pen section">
+          <div class="red-pen-panel">
+            <p class="section-number">Red Pen</p>
+            <h2 data-text="redPen.title"></h2>
+            <p data-text="redPen.body"></p>
+          </div>
+        </section>
+
+        <section id="download" class="download-section section">
+          <div data-download-form></div>
+        </section>
+
+        <section id="offers" class="offers section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="offers.eyebrow"></p>
+            <h2 data-text="offers.title"></h2>
+          </div>
+          <div class="offer-grid" data-offers="offers.items"></div>
+        </section>
+
+        <section class="ai-era section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="aiEra.eyebrow"></p>
+            <h2 data-text="aiEra.title"></h2>
+          </div>
+          <div class="problem-body">
+            <p data-text="aiEra.body"></p>
+          </div>
+        </section>
+
+        <section id="corporate" class="corporate section">
+          <div>
+            <p class="eyebrow" data-text="corporate.eyebrow"></p>
+            <h2 data-text="corporate.title"></h2>
+          </div>
+          <div>
+            <p data-text="corporate.body"></p>
+            <div class="tag-list" data-tags="corporate.tags"></div>
+          </div>
+        </section>
+
+        <section class="testimonials section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="testimonials.eyebrow"></p>
+            <h2 data-text="testimonials.title"></h2>
+          </div>
+          <div class="testimonial-grid" data-testimonials="testimonials.items"></div>
+        </section>
+
+        <section id="articles" class="articles section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="articles.eyebrow"></p>
+            <h2 data-text="articles.title"></h2>
+            <p data-text="articles.body"></p>
+          </div>
+          <div class="article-grid" data-articles="articles.items"></div>
+        </section>
+
+        <section id="community" class="final-cta section">
+          <p class="eyebrow" data-text="finalCta.eyebrow"></p>
+          <h2 data-text="finalCta.title"></h2>
+          <p data-text="finalCta.body"></p>
+          <div class="hero-actions">
+            <a class="button primary" href="#download" data-text="finalCta.primaryCta"></a>
+            <a class="button secondary" href="#social" data-text="finalCta.secondaryCta"></a>
+          </div>
+          <div id="social" class="social-links footer-social" data-social-footer="social"></div>
+        </section>
+      </main>
+
+      <footer class="site-footer" data-footer></footer>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

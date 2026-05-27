@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "title": "Terms of Use | Red Pen Journaling",
+    "description": "Terms and conditions for using Red Pen Journaling."
+  },
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Method", "href": "/method/" },
+      { "label": "Blog", "href": "/blog/" }
+    ],
+    "cta": "Get the free guide"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "page": {
+    "eyebrow": "Legal",
+    "title": "Terms of Use",
+    "updated": "Last updated: May 2026"
+  },
+  "legal": {
+    "sections": [
+      {
+        "heading": "Acceptance of terms",
+        "body": "By accessing or using redpenjournaling.com, you agree to these Terms of Use. If you do not agree, please do not use this site."
+      },
+      {
+        "heading": "Nature of content",
+        "body": "All content on this site — including articles, guides, workshops, and the Red Pen Journaling method — is provided for educational and informational purposes only. It is intended to support self-reflection and mental clarity practices."
+      },
+      {
+        "heading": "Not professional advice",
+        "body": "Red Pen Journaling is not a substitute for professional mental health care, therapy, or medical advice. If you are experiencing a mental health crisis or serious emotional distress, please seek support from a qualified professional."
+      },
+      {
+        "heading": "Intellectual property",
+        "body": "All content on this site — including text, images, guides, and the Red Pen Journaling method — is the intellectual property of Red Pen Journaling. You may not reproduce, distribute, or republish any content without prior written permission."
+      },
+      {
+        "heading": "User conduct",
+        "body": "You agree to use this site only for lawful purposes and in a way that does not infringe the rights of others. You may not use content from this site for commercial purposes without permission."
+      },
+      {
+        "heading": "Limitation of liability",
+        "body": "Red Pen Journaling is not liable for any direct, indirect, or incidental damages arising from your use of this site or its content. All practices and methods are undertaken at your own discretion."
+      },
+      {
+        "heading": "Changes to these terms",
+        "body": "We may update these terms from time to time. Continued use of the site after changes are posted constitutes your acceptance of the updated terms."
+      },
+      {
+        "heading": "Contact",
+        "body": "For questions about these terms, please contact us at hello@redpenjournaling.com."
+      }
+    ]
+  },
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "blog": "Blog"
+  }
+}

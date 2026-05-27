@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Terms of Use | Red Pen Journaling</title>
+    <meta name="description" content="Terms and conditions for using Red Pen Journaling." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand logo-brand" href="/" aria-label="Red Pen Journaling home">
+          <img src="/assets/redpen-logo.jpg" alt="Red Pen Journaling" />
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" data-menu-toggle>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div id="site-menu" class="header-menu" data-site-menu>
+          <nav class="nav-links" aria-label="Primary navigation" data-list="nav.links"></nav>
+          <div class="header-actions">
+            <div class="language-links" data-language-switch></div>
+            <a class="nav-cta" href="/#download" data-text="nav.cta">Get the free guide</a>
+          </div>
+        </div>
+      </header>
+
+      <main>
+        <section class="page-hero legal-hero section">
+          <p class="eyebrow" data-text="page.eyebrow"></p>
+          <h1 data-text="page.title"></h1>
+          <p class="hero-note" data-text="page.updated"></p>
+        </section>
+
+        <section class="legal-content section">
+          <div data-legal-content></div>
+        </section>
+      </main>
+
+      <footer class="site-footer" data-footer></footer>
+    </div>
+
+    <script src="/main.js"></script>
+  </body>
+</html>

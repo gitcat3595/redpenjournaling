@@ -1,0 +1,148 @@
+{
+  "meta": {
+    "title": "Red Pen Thought Review | The Method",
+    "description": "A detailed guide to Red Pen Thought Review: a 10-minute thought review protocol for mental clarity and better decisions."
+  },
+  "nav": {
+    "links": [
+      { "label": "Home", "href": "/" },
+      { "label": "Method", "href": "/method/" },
+      { "label": "Blog", "href": "/blog/" }
+    ],
+    "cta": "Get the free guide"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "blog": "Blog"
+  },
+  "pageHero": {
+    "eyebrow": "Red Pen Thought Review",
+    "title": "A calm cognitive reset protocol.",
+    "body": "Red Pen Thought Review is a structured way to externalize mental noise, review it with distance, separate fact from story, and choose one clearer next move.",
+    "primaryCta": "Get the protocol",
+    "secondaryCta": "See the process"
+  },
+  "definition": {
+    "eyebrow": "How it works",
+    "title": "Thinking gets clearer when it can be reviewed.",
+    "body": "Most mental overload is not caused by one difficult thought. It comes from facts, emotions, assumptions, obligations, and imagined outcomes blending together.",
+    "body2": "The method separates expression from review. The dark pen externalizes thinking. The red pen creates distance, annotation, and metacognition. That distance is what makes clearer judgment possible."
+  },
+  "materials": {
+    "eyebrow": "What you need",
+    "title": "Just three things.",
+    "items": [
+      "A red pen",
+      "A base-colour pen (black, blue, or any colour you like)",
+      "Paper"
+    ]
+  },
+  "method": {
+    "eyebrow": "Process",
+    "title": "Empty. Mark. Separate. Decide.",
+    "body": "The method is deliberately short so it can be used during real life, not only during quiet retreat time.",
+    "steps": [
+      {
+        "title": "Empty",
+        "text": "Start with your base-colour pen. Write the thoughts, decisions, pressures, loops, and emotional residue currently occupying mental space."
+      },
+      {
+        "title": "Mark",
+        "text": "Switch to red. Mark repeated themes, charged words, vague language, assumptions, and unresolved decisions."
+      },
+      {
+        "title": "Separate",
+        "text": "Use the red marks to separate fact, feeling, and story. Not every thought is equally true."
+      },
+      {
+        "title": "Decide",
+        "text": "Identify the real decision or the question that needs to be carried forward. Then choose one specific next move."
+      }
+    ]
+  },
+  "details": {
+    "eyebrow": "What changes",
+    "title": "What Red Pen Thought Review trains.",
+    "items": [
+      {
+        "title": "Metacognition",
+        "body": "You become able to observe your own thinking rather than being fully inside it."
+      },
+      {
+        "title": "Assumption detection",
+        "body": "The red-pen review separates fact from interpretation, making hidden stories easier to catch."
+      },
+      {
+        "title": "Loop interruption",
+        "body": "Externalizing a thought reduces its grip. Once it is on the page, it can be examined instead of replayed."
+      },
+      {
+        "title": "Emotional regulation",
+        "body": "Naming feelings without letting them run the whole decision creates a calmer relationship with pressure."
+      },
+      {
+        "title": "Decision quality",
+        "body": "When fact, feeling, and story are untangled, the next honest move becomes easier to identify."
+      }
+    ]
+  },
+  "practice": {
+    "eyebrow": "Tips",
+    "title": "How to start.",
+    "body": "Use it when a thought keeps reopening, a decision feels unclear, or you are carrying emotional residue from work or life.",
+    "items": [
+      "Start by writing the mental noise exactly as it is, without organizing it.",
+      "Use red only after writing. Keep expression and review separate.",
+      "Ask: What is fact? What is feeling? What is story?",
+      "End by naming either the decision to make or the question to carry forward."
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Common questions",
+    "items": [
+      {
+        "q": "How is Red Pen Thought Review different from regular journaling?",
+        "a": "It does not only capture thoughts. It reviews them. The point is to create distance, separate fact from interpretation, and move toward clearer judgment."
+      },
+      {
+        "q": "What kind of pen should I use?",
+        "a": "Any pen that feels comfortable to write with. The key is the visual contrast between your base colour and the red — so pick whatever suits your hand and helps you write freely."
+      },
+      {
+        "q": "Do I need to re-read what I've written?",
+        "a": "Not necessarily. You can write and let it go, or never revisit it at all. The act of writing and reviewing in the moment is where the value lies. Follow whatever approach feels right for you."
+      },
+      {
+        "q": "Why use a red pen specifically?",
+        "a": "The red pen creates a visual separation between your raw expression and your reflective review. That contrast makes it easier to observe your own thinking from a slight distance — a small but powerful shift in perspective."
+      },
+      {
+        "q": "Are there any rules when starting?",
+        "a": "None. Start simply, without overthinking. Write whatever is on your mind, as honestly as you can — including the messy or negative parts. There is no wrong way to begin."
+      },
+      {
+        "q": "Do I need to write every day?",
+        "a": "No — write when you want to, when you are able to. That said, even five minutes a day can build a grounding rhythm and help settle your mind. What matters most is finding a pace that feels sustainable and enjoyable for you."
+      },
+      {
+        "q": "How exactly does Red Pen Thought Review work?",
+        "a": "Use your base-colour pen to externalize mental noise. Then switch to red and mark patterns, separate fact from feeling and story, identify the real decision, and choose one concrete next move."
+      }
+    ]
+  },
+  "hero": {
+    "downloadTitle": "Free download",
+    "downloadText": "The 10-minute Red Pen Mental Clarity protocol.",
+    "emailPlaceholder": "Email address",
+    "downloadButton": "Subscribe on Substack",
+    "subscribeUrl": "https://redpenjournaling.substack.com/subscribe",
+    "privacyNote": "Opens Substack. Subscribe there to receive the protocol and future notes on mental clarity."
+  }
+}

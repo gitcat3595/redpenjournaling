@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "記事 | 赤ペンジャーナリング",
+    "description": "赤ペンジャーナリング — メンタルクラリティーと構造的な振り返りに関する記事。"
+  },
+  "nav": {
+    "links": [
+      { "label": "ホーム", "href": "/ja/" },
+      { "label": "メソッド", "href": "/ja/method/" },
+      { "label": "ブログ", "href": "/ja/blog/" }
+    ],
+    "cta": "無料ガイドを受け取る"
+  },
+  "social": [
+    { "label": "Substack", "href": "https://redpenjournaling.substack.com/subscribe" },
+    { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
+  ],
+  "page": {
+    "back": "← 記事一覧に戻る",
+    "loading": "読み込み中…",
+    "notFound": "記事が見つかりませんでした。",
+    "error": "記事を読み込めませんでした。後ほど再度お試しください。"
+  },
+  "footer": {
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "blog": "ブログ"
+  }
+}
