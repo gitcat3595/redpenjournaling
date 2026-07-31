@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Article | Red Pen Journaling",
-    "description": "Red Pen Journaling — an article on mental clarity and structured reflection."
+    "title": "Article | Red Pen Review",
+    "description": "Red Pen Review — an article on mental clarity and structured reflection."
   },
   "nav": {
     "links": [
@@ -22,7 +22,7 @@
     "error": "Could not load this post. Please try again later."
   },
   "footer": {
-    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "blog": "Blog"

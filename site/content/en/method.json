@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "The Method | Red Pen Journaling",
-    "description": "A detailed guide to Red Pen Journaling: write, acknowledge, review, and act with more mental clarity."
+    "title": "The Method | Red Pen Review",
+    "description": "A practical thinking system for mental clarity, decision making, and self-management."
   },
   "nav": {
     "links": [
@@ -16,91 +16,92 @@
     { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
   ],
   "footer": {
-    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "blog": "Blog"
   },
   "pageHero": {
     "eyebrow": "The method",
-    "title": "A red-pen review process for overloaded minds.",
-    "body": "Red Pen Journaling is a structured way to externalize what is in your head, acknowledge what is real, and review your thoughts with enough distance to move with more mental clarity.",
+    "title": "A practical thinking system for self-management.",
+    "body": "Red Pen Review is not simply a journaling technique. It is a structured way to externalize your thinking, organize the problem, decide the next move, and build the capacity to manage your own work and life with more clarity.",
     "primaryCta": "Get the free guide",
     "secondaryCta": "See the process"
   },
   "definition": {
-    "eyebrow": "How it works",
-    "title": "Thoughts shape feelings. Feelings shape actions.",
-    "body": "Red Pen Journaling is grounded in the CBT framework known as the CTFAR model: Circumstances → Thoughts → Feelings → Actions → Results. The core insight is that by changing how you think about a situation, you change how you feel — and what you do next.",
-    "body2": "By writing first with a base-colour pen, then switching to red for review, you create the distance needed to observe your own thinking patterns and begin to reshape them. It is not just about feeling better — it is about moving into meaningful action."
+    "eyebrow": "Why it exists",
+    "title": "The problem is not lack of ability. It is too much unprocessed input.",
+    "body": "Modern professionals are surrounded by information, emotion, other people's opinions, social media, AI output, tasks, and constant pressure. But most of us were never taught how to process all of it.",
+    "body2": "Red Pen Review creates a repeatable thinking process: write what is occupying the mind, review it with distance, structure the issue, decide what matters, and move into action."
   },
   "materials": {
-    "eyebrow": "What you need",
-    "title": "Just three things.",
+    "eyebrow": "Core loop",
+    "title": "Write. Organize. Decide. Execute.",
     "items": [
-      "A red pen",
-      "A base-colour pen (black, blue, or any colour you like)",
-      "Paper"
+      "Write: make invisible thoughts visible on paper.",
+      "Organize: separate facts, feelings, assumptions, and noise.",
+      "Decide: identify the real question and choose the next move.",
+      "Execute: act, review, and improve the cycle."
     ]
   },
   "method": {
     "eyebrow": "Process",
     "title": "Write. Acknowledge. Review. Move.",
-    "body": "The method is deliberately simple so it can be repeated during real life, not only during quiet moments.",
+    "body": "The daily method stays simple on purpose. It is the operating practice behind the wider Red Pen approach.",
     "steps": [
       {
         "title": "Write",
-        "text": "Start with your base-colour pen. Write whatever is in your head — feelings, thoughts, fragments, repeated loops. Keep going until it feels complete. Then set the pen down."
+        "text": "Start with your base-colour pen. Write whatever is occupying your mind: tasks, pressure, emotion, repeated thoughts, unfinished decisions, or unclear questions."
       },
       {
         "title": "Acknowledge",
-        "text": "Read back what you wrote. Name what is present without judgment: emotion, fear, desire, pressure, assumptions. Simply recognise that it is there."
+        "text": "Read what you wrote without judging it. Notice what is present: emotion, fear, desire, obligation, pressure, reaction, or a pattern that keeps repeating."
       },
       {
         "title": "Review",
-        "text": "Pick up the red pen. Circle key words, underline what feels true, cross out noise. Ask yourself: is this a fact or an interpretation? Go deeper on anything that stands out."
+        "text": "Pick up the red pen. Separate fact from interpretation, signal from noise, and the real issue from the surface reaction."
       },
       {
         "title": "Move",
-        "text": "From what became clear, choose your next honest move. Decide, communicate, pause, ask — or carry forward the one question that matters most right now."
+        "text": "Choose the next honest move. It may be a decision, a conversation, a boundary, a pause, or one clear question to carry forward."
       }
     ]
   },
   "details": {
-    "eyebrow": "What changes",
-    "title": "What you can expect from a consistent practice.",
+    "eyebrow": "Training architecture",
+    "title": "The method can grow into a self-management system.",
     "items": [
       {
-        "title": "You become aware of your own emotions and thinking",
-        "body": "Writing makes the invisible visible. You start to notice what you actually feel and think — not just what you assume you do."
+        "title": "Level 1: Brain Dump",
+        "body": "Everything begins by getting thoughts out of the head. Before anything can be organized, it has to become visible."
       },
       {
-        "title": "You catch your own assumptions",
-        "body": "The red-pen review separates fact from interpretation. Over time, you get better at spotting where your thinking is distorted or stuck."
+        "title": "Level 2: RED PEN 15",
+        "body": "A 15-minute review practice for reducing mental noise, identifying what actually matters, and deciding where to place attention."
       },
       {
-        "title": "You step out of negative loops",
-        "body": "Externalising a thought breaks its hold. Once it is on the page, you can examine it — rather than replay it."
+        "title": "Level 3: First Step Design",
+        "body": "A method for translating organized thinking into the next clear action, so reflection does not stay abstract."
       },
       {
-        "title": "Your emotional regulation improves",
-        "body": "Acknowledging feelings without suppressing them builds a calmer relationship with your inner state over time."
+        "title": "Level 4: Time Review",
+        "body": "A way to review how time is actually being used, because time allocation often reveals what thinking has prioritized."
       },
       {
-        "title": "You move into clearer action",
-        "body": "Because thinking is untangled on the page, what to do next becomes easier to see — and easier to follow through on."
+        "title": "Level 5-7: Goal, Gap, Execution",
+        "body": "Advanced practices for designing direction, identifying gaps, structuring issues, and building a repeatable review cycle for execution."
       }
     ]
   },
   "practice": {
-    "eyebrow": "Tips",
-    "title": "How to get started.",
-    "body": "If you are new to Red Pen Journaling, start simple. Write about how you are feeling right now, or something that happened today. Then pick up the red pen and respond to what you wrote.",
+    "eyebrow": "Training direction",
+    "title": "From mental clarity to self-management.",
+    "body": "Red Pen Review starts with mental clarity, but the deeper goal is not only to feel organized. The goal is to build the capacity to think independently, manage your priorities, and move forward without waiting for someone else to define the answer.",
     "items": [
-      "If you are not sure what to write with the red pen at first, just writing in your base colour is enough. Getting thoughts out has its own value.",
-      "As you get more comfortable, use the red pen like a second voice — one that questions, reflects, and gently pushes back.",
-      "There is no right way. Negative thoughts are welcome. Messy pages are fine. Honesty matters more than neatness.",
-      "Even five minutes a day builds a rhythm. Consistency matters more than length."
+      "Use it when your mind is busy and you cannot see what the real issue is.",
+      "Use it before decisions, meetings, goal-setting, or difficult conversations.",
+      "Use it to separate what happened from what you are assuming.",
+      "Use it as a repeatable review cycle for work, life, time, and execution."
     ]
   },
   "faq": {
@@ -108,8 +109,8 @@
     "title": "Common questions",
     "items": [
       {
-        "q": "How is Red Pen Journaling different from regular journaling?",
-        "a": "Red Pen Journaling doesn't just capture thoughts — it helps you move from expression to action. Rather than writing for its own sake, it's a structured thinking practice and life skill that creates enough distance from your inner noise so you can act with more clarity."
+        "q": "How is Red Pen Review different from regular journaling?",
+        "a": "Red Pen Review does not stop at expression. It helps you move from raw thoughts to review, structure, decision, and action. The goal is not only self-discovery; it is clearer self-management."
       },
       {
         "q": "What kind of pen should I use?",
@@ -132,8 +133,8 @@
         "a": "No — write when you want to, when you are able to. That said, even five minutes a day can build a grounding rhythm and help settle your mind. What matters most is finding a pace that feels sustainable and enjoyable for you."
       },
       {
-        "q": "How exactly does Red Pen Journaling work?",
-        "a": "Using your base-colour pen, write out your thoughts and feelings freely. Then pick up the red pen and review what you have written. A simple four-step flow: ① Write your thoughts and feelings → ② Acknowledge and accept what is there → ③ Review and organise with your red pen → ④ Take the next clear action. Learn more about the full process on this page."
+        "q": "How exactly does Red Pen Review work?",
+        "a": "Using your base-colour pen, write out what is occupying your mind. Then pick up the red pen and review what you have written. A simple four-step flow: ① Write → ② Acknowledge → ③ Review → ④ Move. The wider training system expands this into time review, goal design, gap analysis, and execution review."
       }
     ]
   },

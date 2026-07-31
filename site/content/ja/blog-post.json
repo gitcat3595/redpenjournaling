@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "記事 | 赤ペンジャーナリング",
-    "description": "赤ペンジャーナリング — メンタルクラリティーと構造的な振り返りに関する記事。"
+    "title": "記事 | 赤ペンレビュー",
+    "description": "赤ペンレビュー — メンタルクラリティーと構造的な振り返りに関する記事。"
   },
   "nav": {
     "links": [
@@ -22,7 +22,7 @@
     "error": "記事を読み込めませんでした。後ほど再度お試しください。"
   },
   "footer": {
-    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "blog": "ブログ"
