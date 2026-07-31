@@ -449,7 +449,7 @@ const formatPostBody = (text) =>
 const renderBlogListing = async (data, language) => {
   const grid = document.querySelector("[data-blog-grid]");
   const loading = document.querySelector("[data-blog-loading]");
-  const errorNode = document.querySelector("[data-blog-error]");
+  const error = document.querySelector("[data-blog-error]");
   if (!grid) return;
 
   const readMore = data.blog?.readMore || "Read more →";
@@ -468,39 +468,15 @@ const renderBlogListing = async (data, language) => {
     if (loading) loading.hidden = true;
 
     if (posts.length === 0) {
-      if (errorNode) { errorNode.hidden = false; errorNode.textContent = emptyMsg; }
+      if (error) { error.hidden = false; error.textContent = emptyMsg; }
       return;
     }
 
-    const searchInput = document.querySelector("[data-blog-search]");
-    const categoryList = document.querySelector("[data-blog-categories]");
-    const wordCloud = document.querySelector("[data-blog-word-cloud]");
-    const selected = { category: "", topic: "", query: "" };
-    const categories = [...new Set(posts.map((post) => post[`category_${language}`]).filter(Boolean))];
-    const categoryLabel = data.blog?.allCategories || "All articles";
-    const noResults = data.blog?.noResults || emptyMsg;
-
-    const matches = (post) => {
-      const keywords = (post[`keywords_${language}`] || "").split(",").map((item) => item.trim()).filter(Boolean);
-      const haystack = [post[`title_${language}`], post[`excerpt_${language}`], post[`body_${language}`], ...keywords]
-        .join(" ")
-        .toLocaleLowerCase();
-      return (!selected.category || post[`category_${language}`] === selected.category)
-        && (!selected.topic || keywords.includes(selected.topic))
-        && (!selected.query || haystack.includes(selected.query.toLocaleLowerCase()));
-    };
-
-    const renderCards = () => {
-      const visiblePosts = posts.filter(matches);
-      grid.innerHTML = "";
-      if (!visiblePosts.length) {
-        grid.innerHTML = `<p class="article-no-results">${noResults}</p>`;
-        return;
-      }
-      visiblePosts.forEach((post) => {
+    posts.forEach((post) => {
       const slug = post.slug;
       const href = isJa ? `/ja/blog/post/?slug=${slug}` : `/blog/post/?slug=${slug}`;
-      const keywords = (post[`keywords_${language}`] || "").split(",").map((item) => item.trim()).filter(Boolean);
+      const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
+      const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
       const cover = post.cover_image
         ? `<div class="blog-cover" style="background-image: url('${post.cover_image}')" aria-hidden="true"></div>`
         : '<div class="blog-cover is-abstract" aria-hidden="true"></div>';
@@ -516,84 +492,15 @@ const renderBlogListing = async (data, language) => {
           <span class="card-category">${post[`category_${language}`] || ""}</span>
           <h3><a href="${href}">${post[`title_${language}`]}</a></h3>
           <p>${post[`excerpt_${language}`] || ""}</p>
+          ${keywordTags ? `<div class="keyword-tags">${keywordTags}</div>` : ""}
           <a class="read-more" href="${href}">${readMore}</a>
         </div>
       `;
       grid.append(card);
-      });
-    };
-
-    const renderCategories = () => {
-      if (!categoryList) return;
-      categoryList.innerHTML = "";
-      ["", ...categories].forEach((category) => {
-        const button = document.createElement("button");
-        button.type = "button";
-        button.className = "article-filter";
-        button.textContent = category || categoryLabel;
-        button.setAttribute("aria-pressed", String(selected.category === category));
-        button.addEventListener("click", () => {
-          selected.category = category;
-          selected.topic = "";
-          renderCategories();
-          renderWordCloud();
-          renderCards();
-        });
-        categoryList.append(button);
-      });
-    };
-
-    const renderWordCloud = () => {
-      if (!wordCloud) return;
-      wordCloud.innerHTML = "";
-      const scopedCategories = selected.category ? [selected.category] : categories;
-      scopedCategories.forEach((category) => {
-        const counts = new Map();
-        posts.filter((post) => post[`category_${language}`] === category).forEach((post) => {
-          (post[`keywords_${language}`] || "").split(",").map((item) => item.trim()).filter(Boolean).forEach((keyword) => {
-            counts.set(keyword, (counts.get(keyword) || 0) + 1);
-          });
-        });
-        const topics = [...counts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 5);
-        if (!topics.length) return;
-        const group = document.createElement("section");
-        group.className = "topic-group";
-        group.innerHTML = `<span>${category}</span>`;
-        const list = document.createElement("div");
-        list.className = "topic-list";
-        topics.forEach(([topic, count]) => {
-          const button = document.createElement("button");
-          button.type = "button";
-          button.className = "topic-word";
-          button.textContent = topic;
-          button.style.setProperty("--topic-size", String(Math.min(1.14, 0.84 + count * 0.08)));
-          button.setAttribute("aria-pressed", String(selected.topic === topic));
-          button.addEventListener("click", () => {
-            selected.category = category;
-            selected.topic = selected.topic === topic ? "" : topic;
-            renderCategories();
-            renderWordCloud();
-            renderCards();
-          });
-          list.append(button);
-        });
-        group.append(list);
-        wordCloud.append(group);
-      });
-    };
-
-    if (searchInput) {
-      searchInput.addEventListener("input", () => {
-        selected.query = searchInput.value.trim();
-        renderCards();
-      });
-    }
-    renderCategories();
-    renderWordCloud();
-    renderCards();
+    });
   } catch {
     if (loading) loading.hidden = true;
-    if (errorNode) { errorNode.hidden = false; errorNode.textContent = errorMsg; }
+    if (error) { error.hidden = false; error.textContent = errorMsg; }
   }
 };
 
@@ -652,7 +559,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260739`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260740`);
   const data = await response.json();
 
   document.title = data.meta.title;
