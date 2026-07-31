@@ -1,10 +1,10 @@
 {
   "meta": {
-    "title": "Red Pen Review | Mental clarity through structured self-review",
+    "title": "Red Pen Journaling | Mental clarity through structured self-review",
     "description": "A metacognitive review method that helps high-performers separate facts, emotions and assumptions — to think clearly and decide with confidence."
   },
   "nav": {
-    "brand": "Red Pen Review",
+    "brand": "Red Pen Journaling",
     "links": [
       { "label": "Method", "href": "/method/" },
       { "label": "Resources", "href": "#offers" },
@@ -19,20 +19,20 @@
     { "label": "Medium", "href": "https://medium.com/@redpenjournaling" }
   ],
   "footer": {
-    "copy": "© 2026 Red Pen Review. All rights reserved.",
+    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "blog": "Blog"
   },
   "hero": {
-    "eyebrow": "Thought Organisation",
-    "title": "Write.\nReview.\nEvolve.",
-    "subtitle": "Red Pen Review is more than just writing down. It is a structured space to organise, focus and regain clarity. The power of putting pen to paper leads to better decision making and clear actions.",
+    "eyebrow": "Thought Review Practice",
+    "title": "Turn thinking into the next clear step.",
+    "subtitle": "A structured way to review unprocessed thoughts, separate fact from interpretation, and make clearer decisions without the mental noise.",
     "primaryCta": "Get the FREE guide",
     "secondaryCta": "",
     "note": "For overloaded minds navigating modern work and life.",
     "downloadTitle": "Free download",
-    "downloadText": "15-minute Mental Clarity Guide with Red Pen Review",
+    "downloadText": "15-minute Mental Clarity Guide",
     "emailPlaceholder": "Email address",
     "downloadButton": "Subscribe on Substack",
     "subscribeUrl": "https://redpenjournaling.substack.com/subscribe",
@@ -48,34 +48,34 @@
   },
   "problem": {
     "eyebrow": "The problem",
-    "title": "Modern work creates noise.",
-    "body": "Busy modern professionals do not need more input. They need time to process and review what is already in their mind. Clear decision making starts when thoughts, emotions, facts, and assumptions are separated.",
+    "title": "Mental noise and clutter make clear thinking harder.",
+    "body": "High-performers do not need more input. They need a way to review their own thinking — to separate signal from noise and move with clearer judgement.",
     "points": [
-      "Information, tasks, emotions, facts, and assumptions get tangled together.",
-      "Unprocessed thoughts keep reopening and make it harder to see what matters.",
-      "Without review, pressure turns into overthinking, hesitation, and unclear decisions."
+      "Too many unfinished thoughts and emotional residues stay unattended.",
+      "Facts, fears, assumptions and emotions are tangled together.",
+      "Clear decisions are not made when facts, fears, assumptions and emotions are all mixed together."
     ]
   },
   "method": {
     "eyebrow": "The method",
-    "title": "Red Pen Thought Review™",
-    "body": "A decision-making and reflection framework for overloaded professionals. It helps people externalize thinking, review it with distance, clarify what matters, and move from reflection into action.",
+    "title": "RED PEN Thought Review",
+    "body": "This is not journaling for self-discovery alone. It is a structured thinking practice: write what is occupying mental space, mark what carries weight, separate fact from story and interpretation, and decide the next move with less mental noise.",
     "steps": [
       {
         "title": "Write",
-        "text": "Put what is occupying mental space onto paper before trying to solve it."
+        "text": "Put your thoughts and feelings on paper before trying to solve them."
+      },
+      {
+        "title": "Acknowledge",
+        "text": "Recognise what is actually there: assumptions, fears, emotional reactions and recurring thought patterns."
       },
       {
         "title": "Review",
-        "text": "Use the red pen to look again with distance and separate fact, interpretation, and emotional noise."
+        "text": "Use the red pen to look again with distance, separating facts, interpretations, and emotional noise."
       },
       {
-        "title": "Clarify",
-        "text": "Identify the real question, hidden decision, or priority underneath the noise."
-      },
-      {
-        "title": "Act",
-        "text": "Choose the next clear action, conversation, boundary, or decision."
+        "title": "Move",
+        "text": "Move with more clarity: take action, make a decision, or carry forward the question that matters."
       }
     ]
   },
@@ -86,37 +86,37 @@
   "aiEra": {
     "eyebrow": "Reflection in the AI era",
     "title": "AI gives you answers. Only you can review your own thinking.",
-    "body": "AI can generate answers instantly. But it cannot tell you what you actually think, avoid, feel, repeat or believe. Red Pen Review is designed to help you process your own thinking before relying on external judgement. The tangible experience of writing stimulates the senses, reaching deeper into your cognition than a screen ever can."
+    "body": "AI can generate answers instantly. But it cannot tell you what you actually think, avoid, feel, repeat or believe. The Red Pen Method is designed to help you process your own thinking before relying on external judgement. The tangible experience of writing stimulates the senses, reaching deeper into your cognition than a screen ever can."
   },
   "offers": {
-    "eyebrow": "Workshop",
-    "title": "Workshops and programs",
+    "eyebrow": "Products",
+    "title": "Ways to Use RED PEN",
     "items": [
       {
-        "name": "90-Minute Workshop",
-        "type": "Team / Group",
+        "name": "RED PEN Starter Guide",
+        "type": "Starter",
         "price": "",
-        "description": "A focused session for teams or professional groups to learn the Red Pen Thought Review process and apply it to current decisions, priorities, or mental noise."
+        "description": "A simple introduction to organizing your thoughts with a red pen. Learn how to separate facts, emotions, assumptions, and next actions in under 15 minutes a day."
       },
       {
-        "name": "Half-Day Workshop",
-        "type": "Corporate",
+        "name": "90-Min RED PEN Workshop",
+        "type": "Individual / Group",
         "price": "",
-        "description": "A deeper workshop for leadership offsites, strategy sessions, wellbeing initiatives, or team alignment. Includes guided reflection, discussion, and action planning."
+        "description": "A guided session for organizing scattered thoughts, reducing mental noise, and clarifying decisions. Leave with a clearer view of what matters and what to do next."
       },
       {
-        "name": "Manager Program",
-        "type": "Leadership",
+        "name": "RED PEN for Teams",
+        "type": "Teams",
         "price": "",
-        "description": "A practical reflection framework for managers who need better decision quality, self-awareness, and communication under pressure."
+        "description": "A structured thinking practice for overloaded teams navigating constant information, decisions, and cognitive fatigue. Designed for managers, knowledge workers, and modern leadership environments."
       }
     ]
   },
   "corporate": {
-    "eyebrow": "Corporate use cases",
-    "title": "Where Red Pen Review fits inside modern organizations.",
-    "body": "Red Pen Review can be used as a practical thinking framework inside leadership development, strategy work, performance conversations, wellbeing initiatives, and team reflection.",
-    "tags": ["Leadership", "Strategy", "Performance reviews", "Wellbeing", "Team alignment"]
+    "eyebrow": "For teams",
+    "title": "A practical reflection system for overloaded teams.",
+    "body": "Modern teams carry constant information load, emotional pressure, and high-stakes decisions. Red Pen Journaling gives people a structured way to pause, review their thinking, and return to decisions with less emotional noise, clearer thinking and better self-awareness under pressure.",
+    "tags": ["Reflective leadership", "Burnout prevention", "Women leaders", "AI-era thinking", "Mental clarity"]
   },
   "testimonials": {
     "eyebrow": "Testimonials",
@@ -145,32 +145,35 @@
     ]
   },
   "articles": {
-    "eyebrow": "Articles",
-    "title": "Start with three cornerstone articles.",
-    "body": "For launch, we are not moving every old post. These three topics explain the problem, the method, and the professional use case most clearly.",
+    "eyebrow": "START HERE",
+    "title": "A clear place to begin",
+    "body": "The full practice is now organised as a three-step reading path: understand the idea, try it in writing, then add tools for clearer decisions.",
     "items": [
       {
-        "title": "Mental clarity in the age of too much input",
-        "description": "How to separate information, emotion, and the question that actually matters.",
-        "meta": "Selected for launch"
+        "title": "First step: Understand the practice",
+        "description": "Learn what Red Pen Journaling is and how it differs from regular journaling.",
+        "meta": "01 · FOUNDATION",
+        "href": "/blog/post/?slug=what-is-red-pen-journaling"
       },
       {
-        "title": "Why the red pen changes how you think",
-        "description": "A practical look at review, distance, and metacognition.",
-        "meta": "Selected for launch"
+        "title": "Practice: Write and review",
+        "description": "Start with what is on your mind, then use the red pen to look at it with more distance.",
+        "meta": "02 · PRACTICE",
+        "href": "/blog/post/?slug=practice-01-write-it-down"
       },
       {
-        "title": "Reflection as a self-leadership skill",
-        "description": "Using structured review to observe your state, make better judgements, and build resilience.",
-        "meta": "Selected for launch"
+        "title": "Frameworks: Untangle a decision",
+        "description": "Use simple thinking tools when you need to sort through options, uncertainty, or mental clutter.",
+        "meta": "03 · FRAMEWORKS",
+        "href": "/blog/post/?slug=frameworks-basics"
       }
     ]
   },
   "finalCta": {
-    "eyebrow": "Discovery",
-    "title": "Ready to think more clearly?",
-    "body": "Book a discovery session to explore how Red Pen Review can support leadership, decision-making, wellbeing, or team alignment in your organization.",
-    "primaryCta": "Book discovery session",
+    "eyebrow": "Newsletter",
+    "title": "Join to regain mental clarity.",
+    "body": "Follow along for practical red-pen prompts, metacognition notes, reflection tips, and ideas for processing your thinking — so you can make decisions with less noise and more clarity.",
+    "primaryCta": "Get the FREE guide",
     "secondaryCta": ""
   }
 }

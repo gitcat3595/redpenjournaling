@@ -1,9 +1,9 @@
 // ─── Blog configuration ────────────────────────────────────────────────────
 // Path to your blog CSV file inside the site folder.
 // To update: open your Excel file, File → Save As → CSV → overwrite this file.
-// Column order: slug, date, category_en, category_ja,
-//               title_en, title_ja, excerpt_en, excerpt_ja,
-//               body_en, body_ja
+// Content source: site/content/blog-posts.csv
+// Edit `order` to change the display sequence. See content/README.md for the
+// field guide; `cover_image` is rendered as a narrow editorial image band.
 const BLOG_CSV_PATH = "/content/blog-posts.csv";
 
 // ─── Utilities ─────────────────────────────────────────────────────────────
@@ -26,10 +26,38 @@ const getContentName = () => {
 // ─── CSV parser ─────────────────────────────────────────────────────────────
 
 const parseCSV = (text) => {
-  const lines = text.trim().split("\n");
-  const headers = parseLine(lines[0]);
-  return lines.slice(1).map((line) => {
-    const values = parseLine(line);
+  const records = [];
+  let record = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '"') {
+      if (inQuotes && text[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === "," && !inQuotes) {
+      record.push(current);
+      current = "";
+    } else if ((ch === "\n" || ch === "\r") && !inQuotes) {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      record.push(current);
+      if (record.some(Boolean)) records.push(record);
+      record = [];
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  if (current || record.length) {
+    record.push(current);
+    records.push(record);
+  }
+  const headers = records[0].map((header) => header.trim());
+  return records.slice(1).map((values) => {
     return headers.reduce((obj, h, i) => {
       obj[h.trim()] = (values[i] || "").trim();
       return obj;
@@ -242,13 +270,7 @@ const renderSteps = (data) => {
         <circle cx="10" cy="18" r="2" />
       </svg>
     `,
-    Clarify: `
-      <svg viewBox="0 0 24 24" aria-hidden="true">
-        <path d="M12 2.5 14.8 9l6.7 3-6.7 3L12 21.5 9.2 15l-6.7-3 6.7-3Z" />
-        <path d="M19 3.5 20 6l2.5 1-2.5 1-1 2.5L18 8l-2.5-1L18 6Z" />
-      </svg>
-    `,
-    Act: `
+    Move: `
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M5 12h14" />
         <path d="m13 6 6 6-6 6" />
@@ -387,10 +409,14 @@ const renderArticles = (data) => {
   items.forEach((item) => {
     const card = document.createElement("article");
     card.className = "article-card";
-    card.innerHTML = `
+    const body = `
       <span>${item.meta}</span>
       <h3>${item.title}</h3>
       <p>${item.description}</p>
+    `;
+    const external = /^https?:\/\//.test(item.href || "");
+    card.innerHTML = `
+      ${item.href ? `<a class="article-card-link" href="${item.href}"${external ? ' target="_blank" rel="noreferrer"' : ""}>${body}<b>読む <span aria-hidden="true">→</span></b></a>` : body}
     `;
     node.append(card);
   });
@@ -451,6 +477,9 @@ const renderBlogListing = async (data, language) => {
       const href = isJa ? `/ja/blog/post/?slug=${slug}` : `/blog/post/?slug=${slug}`;
       const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
       const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
+      const cover = post.cover_image
+        ? `<div class="blog-cover" style="background-image: url('${post.cover_image}')" aria-hidden="true"></div>`
+        : '<div class="blog-cover is-abstract" aria-hidden="true"></div>';
       const card = document.createElement("article");
       card.className = "article-card blog-card";
       card.dataset.id = post.id || "";
@@ -458,11 +487,14 @@ const renderBlogListing = async (data, language) => {
       card.dataset.keywords = keywords.join(",");
       card.dataset.category = post[`category_${language}`] || "";
       card.innerHTML = `
-        <span class="card-category">${post[`category_${language}`] || ""}</span>
-        <h3><a href="${href}">${post[`title_${language}`]}</a></h3>
-        <p>${post[`excerpt_${language}`] || ""}</p>
-        ${keywordTags ? `<div class="keyword-tags">${keywordTags}</div>` : ""}
-        <a class="read-more" href="${href}">${readMore}</a>
+        ${cover}
+        <div class="blog-card-body">
+          <span class="card-category">${post[`category_${language}`] || ""}</span>
+          <h3><a href="${href}">${post[`title_${language}`]}</a></h3>
+          <p>${post[`excerpt_${language}`] || ""}</p>
+          ${keywordTags ? `<div class="keyword-tags">${keywordTags}</div>` : ""}
+          <a class="read-more" href="${href}">${readMore}</a>
+        </div>
       `;
       grid.append(card);
     });
@@ -500,7 +532,7 @@ const renderBlogPost = async (data, language) => {
       return;
     }
 
-    document.title = `${post[`title_${language}`]} | Red Pen Review`;
+    document.title = `${post[`title_${language}`]} | Red Pen Journaling`;
 
     const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
     const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
@@ -527,7 +559,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260603-2`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260735`);
   const data = await response.json();
 
   document.title = data.meta.title;

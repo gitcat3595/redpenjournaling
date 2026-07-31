@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Red Pen Review</title>
+    <title>Red Pen Journaling</title>
     <meta name="description" content="A mental clarity method for overloaded minds." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -13,8 +13,8 @@
   <body>
     <div class="site-shell">
       <header class="site-header">
-        <a class="brand logo-brand" href="#" aria-label="Red Pen Review home">
-          <img src="/assets/redpen-logo.jpg" alt="Red Pen Review" />
+        <a class="brand logo-brand" href="#" aria-label="Red Pen Journaling home">
+          <img src="/assets/redpen-logo.jpg" alt="Red Pen Journaling" />
         </a>
         <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" data-menu-toggle>
           <span></span>
@@ -33,16 +33,81 @@
       <main>
         <section class="brand-hero" aria-label="Red Pen Thought Organization">
           <div class="brand-hero-inner">
-            <div class="brand-hero-image" aria-hidden="true">
-              <img src="/assets/top-image-wide.png" alt="" />
-            </div>
             <div class="brand-hero-copy">
-              <p class="brand-kicker">RED PEN REVIEW</p>
               <h1>
-                Regain mental clarity for better decision making
+                <span>RED PEN</span>
+                turns mental noise
+                <br />
+                into clarity
               </h1>
-              <p>A structured review method to enable clear decision making for leaders, teams, and professionals.</p>
+              <p>A structured way to organise busy minds to regain mental clarity</p>
+              <div class="brand-hero-actions">
+                <a class="button primary" href="#download">Get the free guide</a>
+                <a class="button secondary" href="/method/">Explore the method</a>
+              </div>
+              <p class="brand-hero-note">For overloaded minds, modern professionals, and people who need clearer thinking before taking action.</p>
             </div>
+            <div class="brand-hero-image" aria-hidden="true">
+              <img src="/assets/red-pen-hero-organisation.jpeg" alt="" />
+            </div>
+          </div>
+          <div class="brand-hero-steps" aria-label="Red Pen process">
+            <div>
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M12 20h9" />
+                  <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4Z" />
+                </svg>
+              </span>
+              <strong>Write</strong>
+              <small>Put the noise on paper.</small>
+            </div>
+            <div>
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <circle cx="11" cy="11" r="7" />
+                  <path d="m20 20-3.5-3.5" />
+                </svg>
+              </span>
+              <strong>Acknowledge</strong>
+              <small>Look from a distance and acknowledge whatever has been penned down. Notice feelings, patterns and reactions.</small>
+            </div>
+            <div>
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M4 6h16" />
+                  <path d="M4 12h16" />
+                  <path d="M4 18h16" />
+                  <circle cx="8" cy="6" r="2" />
+                  <circle cx="16" cy="12" r="2" />
+                  <circle cx="10" cy="18" r="2" />
+                </svg>
+              </span>
+              <strong>Review</strong>
+              <small>Use the red pen to separate facts, interpretations and emotional noise.</small>
+            </div>
+            <div>
+              <span class="step-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" role="img">
+                  <path d="M5 12h14" />
+                  <path d="m13 6 6 6-6 6" />
+                </svg>
+              </span>
+              <strong>Move</strong>
+              <small>Decide on the next action with clarity.</small>
+            </div>
+          </div>
+        </section>
+
+        <section class="hero section">
+          <div class="hero-copy">
+            <p class="eyebrow" data-text="hero.eyebrow">Mental clarity method</p>
+            <h1 data-text="hero.title">Turn mental noise into clear decisions.</h1>
+            <p class="hero-subtitle" data-text="hero.subtitle"></p>
+            <div class="hero-actions">
+              <a class="button primary" href="#download" data-text="hero.primaryCta"></a>
+            </div>
+            <p class="hero-note" data-text="hero.note"></p>
           </div>
         </section>
 
@@ -57,30 +122,6 @@
           </div>
         </section>
 
-        <section class="business-impact section">
-          <div class="section-heading">
-            <p class="eyebrow">Impact</p>
-            <h2>When thinking becomes unclear, business slows down.</h2>
-          </div>
-          <div class="impact-grid">
-            <article>
-              <span>Problem 01</span>
-              <h3>Slow decisions</h3>
-              <p>Teams revisit the same questions because the real decision has not been named.</p>
-            </article>
-            <article>
-              <span>Problem 02</span>
-              <h3>Misalignment</h3>
-              <p>People leave meetings with different interpretations of what matters and what comes next.</p>
-            </article>
-            <article>
-              <span>Problem 03</span>
-              <h3>Burnout</h3>
-              <p>Unprocessed information, emotional load, and unclear priorities keep accumulating.</p>
-            </article>
-          </div>
-        </section>
-
         <section id="method" class="method section">
           <div class="section-heading">
             <p class="eyebrow" data-text="method.eyebrow"></p>
@@ -90,22 +131,34 @@
           <div class="steps" data-cards="method.steps"></div>
         </section>
 
-        <section class="impact section">
-          <div class="impact-heading">
-            <p class="eyebrow">Science</p>
-            <h2>Reflection improves how people think, learn, and decide.</h2>
+        <section class="red-pen section">
+          <div class="red-pen-panel">
+            <p class="section-number">Red Pen</p>
+            <h2 data-text="redPen.title"></h2>
+            <p data-text="redPen.body"></p>
           </div>
-          <div class="impact-stats">
-            <article class="impact-stat">
-              <strong>146</strong>
-              <p>expressive-writing studies were reviewed in a major meta-analysis across community, clinical, and medical samples.</p>
-            </article>
-            <article class="impact-stat">
-              <strong>3</strong>
-              <p>studies found longhand note-taking supports deeper conceptual processing than typing notes verbatim.</p>
-            </article>
+        </section>
+
+        <section id="download" class="download-section section">
+          <div data-download-form></div>
+        </section>
+
+        <section id="offers" class="offers section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="offers.eyebrow"></p>
+            <h2 data-text="offers.title"></h2>
           </div>
-          <p class="impact-source">*Sources: Frattaroli, 2006; Mueller &amp; Oppenheimer, 2014.</p>
+          <div class="offer-grid" data-offers="offers.items"></div>
+        </section>
+
+        <section class="ai-era section">
+          <div class="section-kicker">
+            <p class="eyebrow" data-text="aiEra.eyebrow"></p>
+            <h2 data-text="aiEra.title"></h2>
+          </div>
+          <div class="problem-body">
+            <p data-text="aiEra.body"></p>
+          </div>
         </section>
 
         <section id="corporate" class="corporate section">
@@ -117,91 +170,6 @@
             <p data-text="corporate.body"></p>
             <div class="tag-list" data-tags="corporate.tags"></div>
           </div>
-          <div class="corporate-use-cases" aria-label="Team and organisation use cases">
-            <article>
-              <span class="case-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <circle cx="12" cy="7" r="4" />
-                  <path d="M5 21a7 7 0 0 1 14 0" />
-                </svg>
-              </span>
-              <h3>Leadership</h3>
-              <p>Strengthen clarity and lead with confidence.</p>
-            </article>
-            <article>
-              <span class="case-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path d="M4 7h16" />
-                  <path d="m15 2 5 5-5 5" />
-                  <path d="M20 17H4" />
-                  <path d="m9 12-5 5 5 5" />
-                </svg>
-              </span>
-              <h3>Strategy</h3>
-              <p>Create space to review options and align priorities.</p>
-            </article>
-            <article>
-              <span class="case-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <path d="M20 4c-8 0-12 4-12 12" />
-                  <path d="M20 4c0 8-4 12-12 12" />
-                  <path d="M8 16c3-1 5-3 7-6" />
-                  <path d="M8 22v-6" />
-                </svg>
-              </span>
-              <h3>Performance Reviews</h3>
-              <p>Support clearer self-review and better conversations.</p>
-            </article>
-            <article>
-              <span class="case-icon" aria-hidden="true">
-                <svg viewBox="0 0 24 24" role="img">
-                  <circle cx="12" cy="6" r="3" />
-                  <circle cx="5" cy="12" r="2.5" />
-                  <circle cx="19" cy="12" r="2.5" />
-                  <path d="M4 21a5 5 0 0 1 10 0" />
-                  <path d="M10 21a5 5 0 0 1 10 0" />
-                </svg>
-              </span>
-              <h3>Wellbeing</h3>
-              <p>Reduce mental overload and improve resilience.</p>
-            </article>
-          </div>
-        </section>
-
-        <section id="offers" class="offers section">
-          <div class="section-heading">
-            <p class="eyebrow" data-text="offers.eyebrow"></p>
-            <h2 data-text="offers.title"></h2>
-          </div>
-          <div class="workshop-strip" aria-label="Red Pen Review workshops">
-            <div class="workshop-copy">
-              <h2>From reflection to action.</h2>
-              <p>Practical Red Pen Review workshops for leaders, teams, and professionals who need to organize complex thinking, reduce mental noise, and move toward clearer decisions.</p>
-              <a href="#community">Book discovery <span aria-hidden="true">→</span></a>
-            </div>
-            <div class="workshop-image">
-              <img src="/assets/workshop-placeholder.jpg" alt="Workshop table with notebooks and a red pen" />
-            </div>
-          </div>
-          <div class="offer-grid" data-offers="offers.items"></div>
-        </section>
-
-        <section class="trusted-strip" aria-label="Trusted by leaders and professionals">
-          <p>TRUSTED BY LEADERS AND PROFESSIONALS</p>
-          <div class="trusted-track" aria-hidden="true">
-            <div class="trusted-row">
-              <span>“Clearer decisions in noisy weeks.” <strong>Startup Founder, Singapore</strong></span>
-              <span>“Helped our team separate facts from assumptions.” <strong>HR Lead, Japan</strong></span>
-              <span>“A practical reset before strategic planning.” <strong>Marketing Director, UK</strong></span>
-              <span>“Useful for leadership reflection without overcomplication.” <strong>Executive Coach, Australia</strong></span>
-              <span>“Made action easier after too much thinking.” <strong>Product Manager, Canada</strong></span>
-              <span>“Clearer decisions in noisy weeks.” <strong>Startup Founder, Singapore</strong></span>
-              <span>“Helped our team separate facts from assumptions.” <strong>HR Lead, Japan</strong></span>
-              <span>“A practical reset before strategic planning.” <strong>Marketing Director, UK</strong></span>
-              <span>“Useful for leadership reflection without overcomplication.” <strong>Executive Coach, Australia</strong></span>
-              <span>“Made action easier after too much thinking.” <strong>Product Manager, Canada</strong></span>
-            </div>
-          </div>
         </section>
 
         <section class="testimonials section">
@@ -212,19 +180,29 @@
           <div class="testimonial-grid" data-testimonials="testimonials.items"></div>
         </section>
 
+        <section id="articles" class="articles section">
+          <div class="section-heading">
+            <p class="eyebrow" data-text="articles.eyebrow"></p>
+            <h2 data-text="articles.title"></h2>
+            <p data-text="articles.body"></p>
+          </div>
+          <div class="article-grid" data-articles="articles.items"></div>
+        </section>
+
         <section id="community" class="final-cta section">
           <p class="eyebrow" data-text="finalCta.eyebrow"></p>
           <h2 data-text="finalCta.title"></h2>
           <p data-text="finalCta.body"></p>
           <div class="hero-actions">
-            <a class="button primary" href="mailto:hello@redpenjournaling.com?subject=Discovery%20Session%20for%20Red%20Pen%20Review" data-text="finalCta.primaryCta"></a>
+            <a class="button primary" href="#download" data-text="finalCta.primaryCta"></a>
           </div>
+          <div id="social" class="social-links footer-social" data-social-footer="social"></div>
         </section>
       </main>
 
       <footer class="site-footer" data-footer></footer>
     </div>
 
-    <script src="/main.js?v=20260603-2"></script>
+    <script src="/main.js?v=20260735"></script>
   </body>
 </html>
