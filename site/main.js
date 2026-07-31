@@ -575,16 +575,25 @@ const renderBlogPost = async (data, language) => {
 
     const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
     const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
+    const imageAlt = post[`title_${language}`] || "";
+    const leadImage = post.cover_image
+      ? `<div class="post-lead-image" style="background-image: url('${post.cover_image}')" role="img" aria-label="${imageAlt}"></div>`
+      : '<div class="post-lead-image is-abstract" aria-hidden="true"></div>';
+    const closingImage = post.cover_image
+      ? `<figure class="post-closing-image"><img src="${post.cover_image}" alt="${imageAlt}" loading="lazy" /></figure>`
+      : "";
 
     node.innerHTML = `
+      ${leadImage}
+      <h1 class="post-title">${post[`title_${language}`]}</h1>
       <div class="post-meta">
         <span class="post-category">${post[`category_${language}`] || ""}</span>
         ${post.date ? `<span class="post-date">${post.date}</span>` : ""}
         ${post.id ? `<span class="post-id">${post.id}</span>` : ""}
       </div>
-      <h1 class="post-title">${post[`title_${language}`]}</h1>
       <div class="post-body">${formatPostBody(post[`body_${language}`] || "")}</div>
       ${keywordTags ? `<div class="keyword-tags post-keywords">${keywordTags}</div>` : ""}
+      ${closingImage}
     `;
   } catch {
     node.innerHTML = `<p class="error-text">${errorMsg}</p>`;
@@ -598,7 +607,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260741`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260742`);
   const data = await response.json();
 
   document.title = data.meta.title;

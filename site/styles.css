@@ -1577,7 +1577,22 @@ details[open] .faq-q::after {
   align-items: center;
   display: flex;
   gap: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 34px;
+  margin-top: -26px;
+}
+
+.post-lead-image {
+  background-color: #ededed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: clamp(96px, 14vw, 148px);
+  margin-bottom: 34px;
+  width: 100%;
+}
+
+.post-lead-image.is-abstract {
+  background-image: linear-gradient(110deg, #f6f6f6 0%, #f6f6f6 49%, #d50000 49%, #d50000 50%, #f6f6f6 50%, #f6f6f6 100%);
 }
 
 .post-category {
@@ -1613,10 +1628,37 @@ details[open] .faq-q::after {
   margin-top: 48px;
 }
 
+.post-closing-image {
+  margin: 64px 0 0;
+  width: 100%;
+}
+
+.post-closing-image img {
+  display: block;
+  height: auto;
+  max-height: 560px;
+  object-fit: cover;
+  width: 100%;
+}
+
 @media (max-width: 900px) {
   .site-header {
     grid-template-columns: 1fr auto;
     padding: 0 20px;
+  }
+
+  .post-lead-image {
+    height: 96px;
+    margin-bottom: 28px;
+  }
+
+  .post-meta {
+    margin-bottom: 28px;
+    margin-top: -18px;
+  }
+
+  .post-closing-image {
+    margin-top: 48px;
   }
 
   .menu-toggle {
