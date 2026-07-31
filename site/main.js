@@ -26,10 +26,38 @@ const getContentName = () => {
 // ─── CSV parser ─────────────────────────────────────────────────────────────
 
 const parseCSV = (text) => {
-  const lines = text.trim().split("\n");
-  const headers = parseLine(lines[0]);
-  return lines.slice(1).map((line) => {
-    const values = parseLine(line);
+  const records = [];
+  let record = [];
+  let current = "";
+  let inQuotes = false;
+  for (let i = 0; i < text.length; i++) {
+    const ch = text[i];
+    if (ch === '"') {
+      if (inQuotes && text[i + 1] === '"') {
+        current += '"';
+        i++;
+      } else {
+        inQuotes = !inQuotes;
+      }
+    } else if (ch === "," && !inQuotes) {
+      record.push(current);
+      current = "";
+    } else if ((ch === "\n" || ch === "\r") && !inQuotes) {
+      if (ch === "\r" && text[i + 1] === "\n") i++;
+      record.push(current);
+      if (record.some(Boolean)) records.push(record);
+      record = [];
+      current = "";
+    } else {
+      current += ch;
+    }
+  }
+  if (current || record.length) {
+    record.push(current);
+    records.push(record);
+  }
+  const headers = records[0].map((header) => header.trim());
+  return records.slice(1).map((values) => {
     return headers.reduce((obj, h, i) => {
       obj[h.trim()] = (values[i] || "").trim();
       return obj;
