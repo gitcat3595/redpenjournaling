@@ -22,6 +22,17 @@
   },
   "blog": {
     "readMore": "続きを読む →",
+    "studioHeading": "Studioからの読みもの",
+    "studioIntro": "考えを整え、日々の判断を少し軽くするための読みものです。",
+    "startEyebrow": "GUIDE",
+    "startHeading": "ここからはじめる",
+    "startIntro": "赤ペンジャーナリングの考え方から、実際に書いて見直すところまで。気になる項目から、順番に読めます。",
+    "noteSections": {
+      "はじめる": "赤ペンジャーナリングを知る",
+      "実践": "書いて、見直してみる",
+      "整理の型": "考えを整理する型",
+      "リフレクション": "振り返る"
+    },
     "searchLabel": "記事を検索",
     "searchPlaceholder": "タイトル・本文・キーワードを検索",
     "categoriesLabel": "カテゴリー",

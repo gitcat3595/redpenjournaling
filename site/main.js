@@ -448,6 +448,7 @@ const formatPostBody = (text) =>
 
 const renderBlogListing = async (data, language) => {
   const grid = document.querySelector("[data-blog-grid]");
+  const starter = document.querySelector("[data-blog-starter]");
   const loading = document.querySelector("[data-blog-loading]");
   const error = document.querySelector("[data-blog-error]");
   if (!grid) return;
@@ -472,7 +473,9 @@ const renderBlogListing = async (data, language) => {
       return;
     }
 
-    posts.forEach((post) => {
+    const studioPosts = posts.filter((post) => !String(post.id).startsWith("NOTE"));
+    const notePosts = posts.filter((post) => String(post.id).startsWith("NOTE"));
+    const makeCard = (post) => {
       const slug = post.slug;
       const href = isJa ? `/ja/blog/post/?slug=${slug}` : `/blog/post/?slug=${slug}`;
       const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
@@ -496,8 +499,44 @@ const renderBlogListing = async (data, language) => {
           <a class="read-more" href="${href}">${readMore}</a>
         </div>
       `;
-      grid.append(card);
-    });
+      return card;
+    };
+
+    studioPosts.forEach((post) => grid.append(makeCard(post)));
+
+    if (starter && notePosts.length) {
+      const sectionTitles = data.blog?.noteSections || {};
+      const grouped = notePosts.reduce((groups, post) => {
+        const category = post[`category_${language}`] || "";
+        if (!groups[category]) groups[category] = [];
+        groups[category].push(post);
+        return groups;
+      }, {});
+
+      starter.hidden = false;
+      starter.innerHTML = `
+        <div class="start-here-heading">
+          <p class="eyebrow">${data.blog?.startEyebrow || "Guide"}</p>
+          <h2>${data.blog?.startHeading || "Start here"}</h2>
+          <p>${data.blog?.startIntro || ""}</p>
+        </div>
+        <div class="starter-toc"></div>
+      `;
+      const toc = starter.querySelector(".starter-toc");
+      Object.entries(grouped).forEach(([category, entries]) => {
+        const group = document.createElement("section");
+        group.className = "starter-group";
+        group.innerHTML = `<h3>${sectionTitles[category] || category}</h3><ol></ol>`;
+        const list = group.querySelector("ol");
+        entries.forEach((post) => {
+          const href = isJa ? `/ja/blog/post/?slug=${post.slug}` : `/blog/post/?slug=${post.slug}`;
+          const item = document.createElement("li");
+          item.innerHTML = `<a href="${href}">${post[`title_${language}`]}</a>`;
+          list.append(item);
+        });
+        toc.append(group);
+      });
+    }
   } catch {
     if (loading) loading.hidden = true;
     if (error) { error.hidden = false; error.textContent = errorMsg; }
@@ -559,7 +598,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260740`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260741`);
   const data = await response.json();
 
   document.title = data.meta.title;

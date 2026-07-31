@@ -22,6 +22,17 @@
   },
   "blog": {
     "readMore": "Read more →",
+    "studioHeading": "From the Studio",
+    "studioIntro": "Notes for clarifying your thinking and making everyday decisions a little lighter.",
+    "startEyebrow": "GUIDE",
+    "startHeading": "Start here",
+    "startIntro": "A guided table of contents: from the idea behind Red Pen Journaling to writing, reviewing, and moving forward. Start wherever feels useful.",
+    "noteSections": {
+      "Getting started": "Understand the practice",
+      "Practice": "Write and review",
+      "Frameworks": "Structures for clearer thinking",
+      "Reflection": "Reflect"
+    },
     "searchLabel": "Search articles",
     "searchPlaceholder": "Search titles, text, or topics",
     "categoriesLabel": "Categories",

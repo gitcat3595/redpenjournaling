@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/styles.css?v=20260740" />
+    <link rel="stylesheet" href="/styles.css?v=20260741" />
   </head>
   <body>
     <div class="site-shell">
@@ -38,15 +38,21 @@
         </section>
 
         <section class="articles section blog-listing">
+          <div class="blog-section-heading">
+            <h2 data-text="blog.studioHeading">Studioからの読みもの</h2>
+            <p data-text="blog.studioIntro"></p>
+          </div>
           <p class="loading-text" data-blog-loading data-text="blog.loading">読み込み中…</p>
           <p class="error-text" data-blog-error hidden></p>
           <div class="article-grid" data-blog-grid></div>
         </section>
+
+        <section id="start-here" class="start-here section" data-blog-starter hidden></section>
       </main>
 
       <footer class="site-footer" data-footer></footer>
     </div>
 
-    <script src="/main.js?v=20260740"></script>
+    <script src="/main.js?v=20260741"></script>
   </body>
 </html>
