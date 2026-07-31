@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "ブログ | 赤ペンジャーナリング",
+    "title": "ブログ | 赤ペンレビュー",
     "description": "メンタルクラリティー、振り返り、思考整理に関する実践的なノート。"
   },
   "nav": {
@@ -27,7 +27,7 @@
     "error": "記事を読み込めませんでした。後ほど再度お試しください。"
   },
   "footer": {
-    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
     "blog": "ブログ"

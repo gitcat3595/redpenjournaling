@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "Blog | Red Pen Journaling",
+    "title": "Blog | Red Pen Review",
     "description": "Practical notes on mental clarity, reflection, and structured thinking."
   },
   "nav": {
@@ -27,7 +27,7 @@
     "error": "Could not load posts. Please try again later."
   },
   "footer": {
-    "copy": "© 2026 Red Pen Journaling. All rights reserved.",
+    "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
     "blog": "Blog"

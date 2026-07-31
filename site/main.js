@@ -242,7 +242,13 @@ const renderSteps = (data) => {
         <circle cx="10" cy="18" r="2" />
       </svg>
     `,
-    Move: `
+    Clarify: `
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 2.5 14.8 9l6.7 3-6.7 3L12 21.5 9.2 15l-6.7-3 6.7-3Z" />
+        <path d="M19 3.5 20 6l2.5 1-2.5 1-1 2.5L18 8l-2.5-1L18 6Z" />
+      </svg>
+    `,
+    Act: `
       <svg viewBox="0 0 24 24" aria-hidden="true">
         <path d="M5 12h14" />
         <path d="m13 6 6 6-6 6" />
@@ -494,7 +500,7 @@ const renderBlogPost = async (data, language) => {
       return;
     }
 
-    document.title = `${post[`title_${language}`]} | Red Pen Journaling`;
+    document.title = `${post[`title_${language}`]} | Red Pen Review`;
 
     const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
     const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
@@ -521,7 +527,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260528`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260603-2`);
   const data = await response.json();
 
   document.title = data.meta.title;
