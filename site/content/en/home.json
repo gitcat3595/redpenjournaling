@@ -145,24 +145,27 @@
     ]
   },
   "articles": {
-    "eyebrow": "Articles",
-    "title": "Start with three cornerstone articles.",
-    "body": "For launch, we are not moving every old post. These three topics explain the problem, the method, and the professional use case most clearly.",
+    "eyebrow": "START HERE",
+    "title": "A clear place to begin",
+    "body": "The full practice is now organised as a three-step reading path: understand the idea, try it in writing, then add tools for clearer decisions.",
     "items": [
       {
-        "title": "Mental clarity in the age of too much input",
-        "description": "How to separate information, emotion, and the question that actually matters.",
-        "meta": "Selected for launch"
+        "title": "First step: Understand the practice",
+        "description": "Learn what Red Pen Journaling is and how it differs from regular journaling.",
+        "meta": "01 · FOUNDATION",
+        "href": "/blog/post/?slug=what-is-red-pen-journaling"
       },
       {
-        "title": "Why the red pen changes how you think",
-        "description": "A practical look at review, distance, and metacognition.",
-        "meta": "Selected for launch"
+        "title": "Practice: Write and review",
+        "description": "Start with what is on your mind, then use the red pen to look at it with more distance.",
+        "meta": "02 · PRACTICE",
+        "href": "/blog/post/?slug=practice-01-write-it-down"
       },
       {
-        "title": "Reflection as a self-leadership skill",
-        "description": "Using structured review to observe your state, make better judgements, and build resilience.",
-        "meta": "Selected for launch"
+        "title": "Frameworks: Untangle a decision",
+        "description": "Use simple thinking tools when you need to sort through options, uncertainty, or mental clutter.",
+        "meta": "03 · FRAMEWORKS",
+        "href": "/blog/post/?slug=frameworks-basics"
       }
     ]
   },

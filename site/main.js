@@ -409,10 +409,14 @@ const renderArticles = (data) => {
   items.forEach((item) => {
     const card = document.createElement("article");
     card.className = "article-card";
-    card.innerHTML = `
+    const body = `
       <span>${item.meta}</span>
       <h3>${item.title}</h3>
       <p>${item.description}</p>
+    `;
+    const external = /^https?:\/\//.test(item.href || "");
+    card.innerHTML = `
+      ${item.href ? `<a class="article-card-link" href="${item.href}"${external ? ' target="_blank" rel="noreferrer"' : ""}>${body}<b>読む <span aria-hidden="true">→</span></b></a>` : body}
     `;
     node.append(card);
   });
@@ -555,7 +559,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260731`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260733`);
   const data = await response.json();
 
   document.title = data.meta.title;

@@ -145,24 +145,27 @@
     ]
   },
   "articles": {
-    "eyebrow": "Articles",
-    "title": "まず読むべき記事は、この3本です。",
-    "body": "問題提起、メソッドの独自性、法人にもつながる実用性が伝わる記事から始めます。",
+    "eyebrow": "START HERE",
+    "title": "はじめる順番",
+    "body": "Noteにある実践コンテンツを、学びやすい3つのステップに整理しました。サイトへ移植するまでは、各ガイドからNoteの記事を読めます。",
     "items": [
       {
-        "title": "情報が多すぎる時代のメンタルクラリティー",
-        "description": "情報、感情、そして本当に考えるべき問いを分けるための考え方。",
-        "meta": "Selected for launch"
+        "title": "最初のステップ｜考え方を知る",
+        "description": "赤ペンジャーナリングとは何か、通常のジャーナリングと何が違うのか。まず全体像をつかみます。",
+        "meta": "01 · FOUNDATION",
+        "href": "/ja/blog/post/?slug=what-is-red-pen-journaling"
       },
       {
-        "title": "なぜ赤ペンを使うと思考が変わるのか",
-        "description": "レビュー、距離、メタ認知を使って自分の思考を見直すための実践メモ。",
-        "meta": "Selected for launch"
+        "title": "実践する｜書いて、見直す",
+        "description": "書き出す、赤ペンを入れる、深掘りする。基本の流れを実際に体験します。",
+        "meta": "02 · PRACTICE",
+        "href": "/ja/blog/post/?slug=practice-01-write-it-down"
       },
       {
-        "title": "セルフリーダーシップに欠かせない振り返りのスキル",
-        "description": "自分の状態を客観視し、よりよい判断、行動、レジリエンスにつなげるための構造的な振り返り。",
-        "meta": "Selected for launch"
+        "title": "整理の型を増やす｜迷いをほどく",
+        "description": "ブレインダンプやディープダイブなど、思考を分解して次の行動を選ぶための型を学びます。",
+        "meta": "03 · FRAMEWORKS",
+        "href": "/ja/blog/post/?slug=frameworks-basics"
       }
     ]
   },
