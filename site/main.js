@@ -576,10 +576,11 @@ const renderBlogPost = async (data, language) => {
     const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
     const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
     const imageAlt = post[`title_${language}`] || "";
-    const leadImage = post.cover_image
+    const isStarterGuide = String(post.id).startsWith("NOTE");
+    const leadImage = !isStarterGuide && post.cover_image
       ? `<div class="post-lead-image" style="background-image: url('${post.cover_image}')" role="img" aria-label="${imageAlt}"></div>`
-      : '<div class="post-lead-image is-abstract" aria-hidden="true"></div>';
-    const closingImage = post.cover_image
+      : "";
+    const closingImage = !isStarterGuide && post.cover_image
       ? `<figure class="post-closing-image"><img src="${post.cover_image}" alt="${imageAlt}" loading="lazy" /></figure>`
       : "";
 
@@ -607,7 +608,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260742`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260743`);
   const data = await response.json();
 
   document.title = data.meta.title;
