@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "Blog | Red Pen Review",
+    "title": "Articles | Red Pen Review",
     "description": "Practical notes on mental clarity, reflection, and structured thinking."
   },
   "nav": {
     "links": [
       { "label": "Home", "href": "/" },
       { "label": "Method", "href": "/method/" },
-      { "label": "Blog", "href": "/blog/" }
+      { "label": "Articles", "href": "/blog/" }
     ],
     "cta": "Get the free guide"
   },
@@ -17,11 +17,18 @@
   ],
   "page": {
     "eyebrow": "Articles",
-    "title": "Red Pen Journal",
+    "title": "Articles",
     "body": "Practical notes on mental clarity, reflection, and structured thinking for overloaded minds."
   },
   "blog": {
     "readMore": "Read more →",
+    "searchLabel": "Search articles",
+    "searchPlaceholder": "Search titles, text, or topics",
+    "categoriesLabel": "Categories",
+    "topicsLabel": "Explore by topic",
+    "allCategories": "All articles",
+    "clearFilters": "Clear filters",
+    "noResults": "No articles match these filters. Try another search or category.",
     "loading": "Loading posts…",
     "empty": "No posts yet. Check back soon.",
     "error": "Could not load posts. Please try again later."
@@ -30,6 +37,6 @@
     "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "blog": "Blog"
+    "blog": "Articles"
   }
 }

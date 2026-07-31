@@ -7,7 +7,7 @@
     "links": [
       { "label": "Home", "href": "/" },
       { "label": "Method", "href": "/method/" },
-      { "label": "Blog", "href": "/blog/" }
+      { "label": "Articles", "href": "/blog/" }
     ],
     "cta": "Get the free guide"
   },
@@ -19,7 +19,7 @@
     "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "blog": "Blog"
+    "blog": "Articles"
   },
   "pageHero": {
     "eyebrow": "The method",

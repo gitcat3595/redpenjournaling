@@ -7,7 +7,7 @@
     "links": [
       { "label": "ホーム", "href": "/ja/" },
       { "label": "メソッド", "href": "/ja/method/" },
-      { "label": "ブログ", "href": "/ja/blog/" }
+      { "label": "読みもの", "href": "/ja/blog/" }
     ],
     "cta": "無料ガイドを受け取る"
   },
@@ -19,7 +19,7 @@
     "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "blog": "ブログ"
+    "blog": "読みもの"
   },
   "pageHero": {
     "eyebrow": "The method",

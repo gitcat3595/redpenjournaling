@@ -9,7 +9,7 @@
       { "label": "Method", "href": "/method/" },
       { "label": "Resources", "href": "#offers" },
       { "label": "Corporate", "href": "#corporate" },
-      { "label": "Blog", "href": "/blog/" }
+      { "label": "Articles", "href": "/blog/" }
     ],
     "cta": "Get the FREE guide"
   },
@@ -22,7 +22,7 @@
     "copy": "© 2026 Red Pen Journaling. All rights reserved.",
     "privacy": "Privacy Policy",
     "terms": "Terms of Use",
-    "blog": "Blog"
+    "blog": "Articles"
   },
   "hero": {
     "eyebrow": "Thought Review Practice",

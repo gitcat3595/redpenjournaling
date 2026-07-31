@@ -1,13 +1,13 @@
 {
   "meta": {
-    "title": "ブログ | 赤ペンレビュー",
+    "title": "読みもの | 赤ペンレビュー",
     "description": "メンタルクラリティー、振り返り、思考整理に関する実践的なノート。"
   },
   "nav": {
     "links": [
       { "label": "ホーム", "href": "/ja/" },
       { "label": "メソッド", "href": "/ja/method/" },
-      { "label": "ブログ", "href": "/ja/blog/" }
+      { "label": "読みもの", "href": "/ja/blog/" }
     ],
     "cta": "無料ガイドを受け取る"
   },
@@ -16,12 +16,19 @@
     { "label": "Instagram", "href": "https://instagram.com/redpenjournaling" }
   ],
   "page": {
-    "eyebrow": "記事",
-    "title": "赤ペンジャーナル",
+    "eyebrow": "ARTICLES",
+    "title": "読みもの",
     "body": "メンタルクラリティー、振り返り、思考整理についての実践的なノート。"
   },
   "blog": {
     "readMore": "続きを読む →",
+    "searchLabel": "記事を検索",
+    "searchPlaceholder": "タイトル・本文・キーワードを検索",
+    "categoriesLabel": "カテゴリー",
+    "topicsLabel": "カテゴリー別のテーマ",
+    "allCategories": "すべて",
+    "clearFilters": "絞り込みを解除",
+    "noResults": "条件に合う記事がありません。検索語やカテゴリーを変えてみてください。",
     "loading": "読み込み中…",
     "empty": "まだ記事はありません。またお越しください。",
     "error": "記事を読み込めませんでした。後ほど再度お試しください。"
@@ -30,6 +37,6 @@
     "copy": "© 2026 Red Pen Review. All rights reserved.",
     "privacy": "プライバシーポリシー",
     "terms": "利用規約",
-    "blog": "ブログ"
+    "blog": "読みもの"
   }
 }
