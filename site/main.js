@@ -1,9 +1,9 @@
 // ─── Blog configuration ────────────────────────────────────────────────────
 // Path to your blog CSV file inside the site folder.
 // To update: open your Excel file, File → Save As → CSV → overwrite this file.
-// Column order: slug, date, category_en, category_ja,
-//               title_en, title_ja, excerpt_en, excerpt_ja,
-//               body_en, body_ja
+// Content source: site/content/blog-posts.csv
+// Edit `order` to change the display sequence. See content/README.md for the
+// field guide; `cover_image` is rendered as a narrow editorial image band.
 const BLOG_CSV_PATH = "/content/blog-posts.csv";
 
 // ─── Utilities ─────────────────────────────────────────────────────────────
@@ -473,6 +473,9 @@ const renderBlogListing = async (data, language) => {
       const href = isJa ? `/ja/blog/post/?slug=${slug}` : `/blog/post/?slug=${slug}`;
       const keywords = (post[`keywords_${language}`] || "").split(",").map((k) => k.trim()).filter(Boolean);
       const keywordTags = keywords.map((k) => `<span class="keyword-tag">${k}</span>`).join("");
+      const cover = post.cover_image
+        ? `<div class="blog-cover" style="background-image: url('${post.cover_image}')" aria-hidden="true"></div>`
+        : '<div class="blog-cover is-abstract" aria-hidden="true"></div>';
       const card = document.createElement("article");
       card.className = "article-card blog-card";
       card.dataset.id = post.id || "";
@@ -480,11 +483,14 @@ const renderBlogListing = async (data, language) => {
       card.dataset.keywords = keywords.join(",");
       card.dataset.category = post[`category_${language}`] || "";
       card.innerHTML = `
-        <span class="card-category">${post[`category_${language}`] || ""}</span>
-        <h3><a href="${href}">${post[`title_${language}`]}</a></h3>
-        <p>${post[`excerpt_${language}`] || ""}</p>
-        ${keywordTags ? `<div class="keyword-tags">${keywordTags}</div>` : ""}
-        <a class="read-more" href="${href}">${readMore}</a>
+        ${cover}
+        <div class="blog-card-body">
+          <span class="card-category">${post[`category_${language}`] || ""}</span>
+          <h3><a href="${href}">${post[`title_${language}`]}</a></h3>
+          <p>${post[`excerpt_${language}`] || ""}</p>
+          ${keywordTags ? `<div class="keyword-tags">${keywordTags}</div>` : ""}
+          <a class="read-more" href="${href}">${readMore}</a>
+        </div>
       `;
       grid.append(card);
     });
@@ -549,7 +555,7 @@ const loadContent = async () => {
   const contentName = getContentName();
   document.documentElement.lang = language === "ja" ? "ja" : "en";
 
-  const response = await fetch(`/content/${language}/${contentName}.json?v=20260528`);
+  const response = await fetch(`/content/${language}/${contentName}.json?v=20260731`);
   const data = await response.json();
 
   document.title = data.meta.title;

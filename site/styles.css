@@ -1284,6 +1284,118 @@ details[open] .faq-q::after {
   max-width: 760px;
 }
 
+/* ─── Editorial refresh: restrained, corporate, mobile-first ────────────── */
+
+/* The prior illustrated opener is retained in the markup only for backwards
+   compatibility. The editorial hero below replaces it with one clear message. */
+.brand-hero {
+  display: none;
+}
+
+.hero {
+  padding-bottom: 56px;
+  padding-top: 88px;
+}
+
+.hero-copy {
+  max-width: 720px;
+}
+
+.hero h1 {
+  font-size: clamp(38px, 5vw, 64px);
+  letter-spacing: -0.045em;
+  max-width: 720px;
+}
+
+.hero::after {
+  background-color: #f3f3f3;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.14), rgba(255, 255, 255, 0)), url("/assets/red-pen-hero-organisation.jpeg");
+  background-position: center 57%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  content: "";
+  display: block;
+  height: clamp(130px, 18vw, 210px);
+  margin-top: 56px;
+  width: 100%;
+}
+
+.blog-listing {
+  padding-top: 44px;
+}
+
+.blog-card {
+  background: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  min-height: 0;
+  overflow: hidden;
+  padding: 0;
+}
+
+.blog-cover {
+  background-color: #ededed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 108px;
+  width: 100%;
+}
+
+.blog-cover.is-abstract {
+  background-image: linear-gradient(110deg, #f6f6f6 0%, #f6f6f6 49%, #d50000 49%, #d50000 50%, #f6f6f6 50%, #f6f6f6 100%);
+}
+
+.blog-card-body {
+  padding: 22px 22px 24px;
+}
+
+.blog-card h3 {
+  font-size: 22px;
+  letter-spacing: -0.025em;
+  max-width: none;
+}
+
+.blog-card p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  margin-bottom: 16px;
+  overflow: hidden;
+}
+
+.blog-card .read-more {
+  color: var(--ink);
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 800;
+  margin-top: 22px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding-bottom: 44px;
+    padding-top: 56px;
+  }
+
+  .hero h1 {
+    font-size: clamp(36px, 11vw, 52px);
+  }
+
+  .hero::after {
+    height: 126px;
+    margin-top: 38px;
+  }
+
+  .blog-listing {
+    padding-top: 26px;
+  }
+
+  .blog-cover {
+    height: 92px;
+  }
+}
+
 .back-link {
   color: var(--muted);
   display: inline-block;
